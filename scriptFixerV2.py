@@ -19,4 +19,16 @@ def rawScriptArray(scriptFile):
     return scriptArray
 
 
+def makeStageDirection(wordArray):
+    textOut = ["("]
+    for word in wordArray:
+        textOut.append(word)
+    textOut.append(")")
+    return textOut
+
+
+def makeCharLine(nameArray, lineArray):
+    
+
+
 fixScriptText("Scripts/Raw Scripts/TheDoormanRaw.txt")
