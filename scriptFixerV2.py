@@ -10,14 +10,11 @@ def fixScriptText(filePath):
 def rawScriptArray(scriptFile):
     scriptArray = []
     for line in scriptFile:
-        if len(line) == 1:
-            print("ping!")
-        else:
+        if len(line) != 1:
             for word in line.split():
-                if word[len(word) - 1] == '\n':
-                    print("pong!")
-                else:
+                if word[len(word) - 1] != '\n':
                     scriptArray.append(word)
+
     return scriptArray
 
 
@@ -34,19 +31,29 @@ def iterateThroughList(wordList):
         if len(newWord) < 1:
             print("SOMETHING IS TERRIBLY WRONG")
             break
-        if newWord[-1] == ']':
-            if state == 0:
+        if state == -1:
+            if newWord[0] == '[':
+                parsedScript.append(makeLineFromState(focusToParse, state))
+                state = 0
+                focusToParse.clear()
+                if newWord[-1] == ']':
+                    focusToParse.append(newWord[1:-1])
+                    parsedScript.append(makeLineFromState(focusToParse, state))
+                else:
+                    focusToParse.append(newWord[1:])
+            elif newWord[:-1] == ":":
+                state =
+        elif state == 0:
+            if newWord[-1] == ']':
                 focusToParse.append(newWord[:-1])
+                parsedScript.append(makeLineFromState(focusToParse, state))
+                state = -1
             else:
-                print("SOMETHING IS TERRIBLY WRONG 2")
-        if newWord[0] == '[':
-            parsedScript.append(makeLineFromState(focusToParse, state))
-            state = 0
-            focusToParse.clear()
-            focusToParse.append(newWord[1:])
+                focusToParse.append(newWord)
         else:
             focusToParse.append(newWord)
-    return parsedScript;
+        #print('state=', state, ", focusToParse=", focusToParse)
+    return parsedScript
 
 
 def makeLineFromState(wordArray, state):
