@@ -2,13 +2,17 @@ def fixScriptText(filePath):
     splitLinesText = []
     with open(filePath) as file_in:
         splitScript = makeSplitScript(file_in)
-        print(splitScript)
+        sortedScript = []
+        # print(splitScript)
         for line in splitScript:
+            sortedScript.append(makeLineByType(line))
+        # print(sortedScript)
+        for line in sortedScript:
             print(line)
 
 
 def makeSplitScript(scriptFile):
-    #CHANGE PER FILE
+    # CHANGE PER FILE
     scriptArray = []
     fullText = ""
     inChunk = True
@@ -19,34 +23,43 @@ def makeSplitScript(scriptFile):
     return scriptArray
 
 
-def detectLineType(lineString):
-    #CHANGE PER FILE
-    
+def makeLineByType(lineString):
+    # print("makeLineByType(" + lineString + ")")
+    # CHANGE PER FILE
+    if ':' in lineString:
+        # print("charLine!")
+        return makeCharLine(lineString.split(':'))
+    elif lineString[-1] == ']':
+        # print("settingLine!")
+        return makeSettingLine(lineString.split('[')[1][:-1])
+    else:
+        # print("stageDirection!")
+        return makeStageDirection(lineString)
 
 
 def makeSettingLine(settingArray):
-    textOut = ["SETTING LINE: ["]
+    textOut = "["
     for word in settingArray:
-        textOut.append(word)
-    textOut.append("] END SETTNG")
+        textOut += word
+    textOut += "]"
     return textOut
 
 
 def makeStageDirection(wordArray):
-    textOut = ["STAGE LINE ("]
+    textOut = "("
     for word in wordArray:
-        textOut.append(word)
-    textOut.append(") END STAGE")
+        textOut += word
+    textOut += ")"
     return textOut
 
 
-def makeCharLine(nameArray, lineArray):
-    textOut = []
-    for word in nameArray:
-        textOut.append(word)
-    textOut.append(":")
-    for word in lineArray:
-        textOut.append(word)
+def makeCharLine(charLineArray):
+    textOut = ""
+    for word in charLineArray[0]:
+        textOut += word
+    textOut += ":"
+    for word in charLineArray[1]:
+        textOut += word
     return textOut
 
 
