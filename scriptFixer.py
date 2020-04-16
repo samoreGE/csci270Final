@@ -1,12 +1,12 @@
 def fixScriptText(filePath):
     splitLinesText = []
     with open(filePath) as file_in:
-        compactText = trimWhitespace(file_in)
-        for line in compactText:
-            print(line)
+        print(file_in)
+        for line in file_in:
+            #print(line)
             splitLine = line.split()
             if isCharLine(splitLine):
-                print("CharLine Found!")
+                #print("CharLine Found!")
                 fixedLine = fixCharLine(splitLine)
             else:
                 fixedLine = splitLine
@@ -32,10 +32,10 @@ def isCharLine(splitToTest):
 
 
 def fixCharLine(splitLine):
-    print("fixScripLine(", splitLine, "), len=", len(splitLine))
+    #print("fixScripLine(", splitLine, "), len=", len(splitLine))
     if len(splitLine) > 0:
         fixedSplit = [fixLineOpen(splitLine[0])]
-        print(fixedSplit)
+        #print(fixedSplit)
         return fixedSplit
     else:
         print("ERROR PARSING SCRIPTLINE")
