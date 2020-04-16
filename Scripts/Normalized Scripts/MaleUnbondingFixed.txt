@@ -262,4 +262,4 @@ JOEL: Well, let's just take a look here. (looks at his schedule) Forty-one home 
 (Scene ends.)
 [SETTING: Nightclub]
 JERRY: You know, I really.. I've come to the conclusion that there are certain friends in you life that they're just always your friends and you have to accept it. You see them, you don't really want to see them. You don't call them. They call you. You don't call back. They call again. The only way to get through talking with people that you don't really have anything in common with is to pretend you're hosting your own little talk show. This is what I do. You pretend there's a little desk around you. The only problem with this is there's no way you can say, "Hey, it's been great having you on the show. Were out of time."
-[END OF SHOW.]
+[END]
