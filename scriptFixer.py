@@ -1,5 +1,5 @@
 def fixScriptText(filePath):
-    linesText = []
+    splitLinesText = []
     with open(filePath) as file_in:
         compactText = trimWhitespace(file_in)
         for line in compactText:
@@ -10,12 +10,8 @@ def fixScriptText(filePath):
                 fixedLine = fixCharLine(splitLine)
             else:
                 fixedLine = splitLine
-            linesText.append(fixedLine)
-    outString = ""
-    for index in range(len(linesText)):
-        if index>0:
-            outString+="\n"
-        for word in linesText[]
+            splitLinesText.append(fixedLine)
+    outString = splitLineToString(splitLinesText)
     print(outString)
 
 
@@ -54,6 +50,16 @@ def fixLineOpen(firstWord):
     return fixedWord
 
 
+def splitLineToString(splitLine):
+    outString = ""
+    for index in range(len(splitLine)):
+        if index > 0:
+            outString += "\n"
+        for index2 in range(len(splitLine[index])):
+            if index2 > 0:
+                outString += " "
+            outString += splitLine[index][index2]
+    return outString
 
 
 fixScriptText("Scripts/Raw Scripts/TheDoormanRaw.txt")
