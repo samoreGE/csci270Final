@@ -24,17 +24,17 @@ def makeSplitScript(scriptFile):
 
 
 def makeLineByType(lineString):
-    # print("makeLineByType(" + lineString + ")")
+    print("makeLineByType(" + lineString + ")")
     # CHANGE PER FILE
     if ':' in lineString:
-        # print("charLine!")
+        print("charLine!")
         return makeCharLine(lineString.split(':'))
     elif lineString[-1] == ']':
-        # print("settingLine!")
+        print("settingLine!")
         return makeSettingLine(lineString.split('[')[1][:-1])
     else:
-        # print("stageDirection!")
-        return makeStageDirection(lineString)
+        print("stageDirection!")
+        return makeStageDirection(lineString.split('(')[1][:-1])
 
 
 def makeSettingLine(settingArray):
@@ -56,11 +56,11 @@ def makeStageDirection(wordArray):
 def makeCharLine(charLineArray):
     textOut = ""
     for word in charLineArray[0]:
-        textOut += word
+        textOut += word.upper()
     textOut += ":"
     for word in charLineArray[1]:
         textOut += word
     return textOut
 
 
-fixScriptText("Scripts/Raw Scripts/TheDoormanRaw.txt")
+fixScriptText("Scripts/Raw Scripts/MaleUnbondingRaw.txt")
