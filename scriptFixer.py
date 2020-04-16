@@ -1,40 +1,59 @@
 def fixScriptText(filePath):
+    linesText = []
     with open(filePath) as file_in:
-        linesText = ""
-        for line in file_in:
-            lineText = str(len(line)) + ""
-            lineWords = line.split()
-            fixScriptLine(lineWords)
-            if len(line) > 1:
-                endChar = lineWords[0][len(lineWords[0]) - 1]
-                print(line)
-                print(endChar)
+        compactText = trimWhitespace(file_in)
+        for line in compactText:
+            print(line)
+            splitLine = line.split()
+            if isCharLine(splitLine):
+                print("CharLine Found!")
+                fixedLine = fixCharLine(splitLine)
             else:
-                print("ERROR: IMPOSSIBLE LINE FORMATTING")
-            for index in range(len(lineWords)):
-                lineText += lineWords[index] + " "
-            linesText += lineText + "\n"
-        # print(linesText)
+                fixedLine = splitLine
+            linesText.append(fixedLine)
+    outString = ""
+    for index in range(len(linesText)):
+        if index>0:
+            outString+="\n"
+        for word in linesText[]
+    print(outString)
 
 
-def fixLineOpen(splitLine):
-    fixedLine = []
-    for index in range(len(splitLine)):
-        fixedWord = ""
-        startChar = splitLine[index][0]
-        endChar = splitLine[index][len(splitLine[index]) - 1]
-        if index == 0:
-            fixedWord += splitLine[index].upper()
-            if endChar != ':':
-                fixedWord += ":"
-        fixedLine.append(fixedWord)
-    return fixedLine
+def trimWhitespace(scriptFile):
+    trimmedText = []
+    for line in scriptFile:
+        if len(line) > 1:
+            trimmedText.append(line)
+    return trimmedText
 
 
-def fixScriptLine(splitLine):
-    print("fixScripLine(", splitLine, ")")
-    fixedSplit = fixLineOpen(splitLine)
-    return fixedSplit
+def isCharLine(splitToTest):
+    # ADJUST SCRIPT-BY-SCRIPT
+    if len(splitToTest) > 0:
+        if splitToTest[0][len(splitToTest[0]) - 1] == ':':
+            return True;
+    return False
+
+
+def fixCharLine(splitLine):
+    print("fixScripLine(", splitLine, "), len=", len(splitLine))
+    if len(splitLine) > 0:
+        fixedSplit = [fixLineOpen(splitLine[0])]
+        print(fixedSplit)
+        return fixedSplit
+    else:
+        print("ERROR PARSING SCRIPTLINE")
+
+
+def fixLineOpen(firstWord):
+    fixedWord = ""
+    endChar = firstWord[len(firstWord) - 1]
+    fixedWord += firstWord.upper()
+    if endChar != ':':
+        fixedWord += ":"
+    return fixedWord
+
+
 
 
 fixScriptText("Scripts/Raw Scripts/TheDoormanRaw.txt")
