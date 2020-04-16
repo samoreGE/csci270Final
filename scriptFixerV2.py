@@ -19,6 +19,9 @@ def rawScriptArray(scriptFile):
     return scriptArray
 
 
+
+
+
 def makeStageDirection(wordArray):
     textOut = ["("]
     for word in wordArray:
@@ -28,7 +31,21 @@ def makeStageDirection(wordArray):
 
 
 def makeCharLine(nameArray, lineArray):
-    
+    textOut = []
+    for word in nameArray:
+        textOut.append(word)
+    textOut.append(":")
+    for word in lineArray:
+        textOut.append(word)
+    return textOut
+
+
+def makeSettingLine(settingArray):
+    textOut = ["["]
+    for word in settingArray:
+        textOut.append(word)
+    textOut.append("]")
+    return textOut
 
 
 fixScriptText("Scripts/Raw Scripts/TheDoormanRaw.txt")
