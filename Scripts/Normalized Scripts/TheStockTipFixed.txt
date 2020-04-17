@@ -257,4 +257,4 @@ GOERGE: Shhhhh. If you want to get in - there's very little time. (Calling to wa
 (Scene ends.)
 [SETTING: Night club]
 JERRY: I'm not an investor. People always tell me, you should have your money working for you. I've decided I'll do the work. I'm gonna let the money relax. You know what I mean? 'Cause you send your money out there - working for you - a lot of times, it gets fired. You go back there, "What happened? I had my money. It was here, it was working for me." "Yeah, I remember your money. Showing up late. Taking time off. We had to let him go."
-[END OF SHOW]
+[END]
