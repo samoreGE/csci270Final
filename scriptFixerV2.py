@@ -63,4 +63,4 @@ def makeCharLine(charLineArray):
     return textOut
 
 
-fixScriptText("Scripts/Raw Scripts/ThePonyRemarkRaw.txt")
+fixScriptText("Scripts/Raw Scripts/TheJacketRaw.txt")
