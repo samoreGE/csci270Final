@@ -17,14 +17,15 @@ class LineText(ABC):
 
 
 class Episode:
-    def __init__(self, scenes):
+    def __init__(self, title, scenes):
+        self.title = title
         self.scenes = scenes
 
 
 class Scene:
-    def __init__(self, setting, characters, lines):
+    def __init__(self, setting, cast, lines):
         self.setting = setting
-        self.characters = characters
+        self.cast = cast
         self.lines = lines
 
 
