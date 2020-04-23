@@ -5,7 +5,7 @@ def scriptToObj(scriptPath):
     with open(scriptPath) as file_in:
         for line in file_in:
             lineText = line.replace("\n", "")
-            #print(lineText + "(END LINE)")
+            # print(lineText + "(END LINE)")
             parseLine(lineText)
 
 
@@ -16,7 +16,7 @@ def parseLine(lineText):
         print("STAGE DIRECTION")
     elif lineText.find(':') > -1:
         print("DIALOGUE")
-        parsedDiaLine = parseDialogue(lineText)
+        parsedDiaLine = parseDialogue(splitOnPunct(lineText))
         print(parsedDiaLine.getFullLineText())
 
 
@@ -54,6 +54,10 @@ def parseDiaLine(diaLine):
                 dirText.append(SingleWord(word))
 
     return lineText
+
+
+def splitOnPunct(line):
+    return line.replace(".", " . ").replace(",", " , ").replace("!", " ! ").replace("?", " ? ")
 
 
 def getCastFromSegment(segment):
