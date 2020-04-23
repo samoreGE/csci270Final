@@ -5,7 +5,7 @@ def scriptToObj(scriptPath):
     with open(scriptPath) as file_in:
         for line in file_in:
             lineText = line.replace("\n", "")
-            print(lineText + "(END LINE)")
+            #print(lineText + "(END LINE)")
             parseLine(lineText)
 
 
@@ -16,13 +16,15 @@ def parseLine(lineText):
         print("STAGE DIRECTION")
     elif lineText.find(':') > -1:
         print("DIALOGUE")
-        parseDialogue(lineText)
+        parsedDiaLine = parseDialogue(lineText)
+        print(parsedDiaLine.getFullLineText())
 
 
 def parseDialogue(diaText):
     character = diaText[:diaText.find(':')]
     line = parseDiaLine(diaText[diaText.find(':') + 2:])
     diaLine = DialogueLine(character, line)
+    return diaLine
 
 
 def parseDiaLine(diaLine):
@@ -30,13 +32,28 @@ def parseDiaLine(diaLine):
     lineText = []
     inDir = False
     for word in diaLine.split():
-        if word[0] == '(':
-            print(word+": START OF STAGE DIR")
-        if word[-1:] == ')':
-            print(word + ": END OF STAGE DIR")
         if not inDir:
-            lineText.append(word)
-    return []
+            if word[0] == '(':
+                inDir = True
+                if word[-1:] == ')':
+                    dirText.append(SingleWord(word[1:-1]))
+                    lineText.append(StageDir(dirText))
+                    inDir = False
+                    dirText = []
+                else:
+                    dirText.append(SingleWord(word[1:]))
+            else:
+                lineText.append(SingleWord(word))
+        else:
+            if word[-1:] == ')':
+                dirText.append(SingleWord(word[:-1]))
+                lineText.append(StageDir(dirText))
+                inDir = False
+                dirText = []
+            else:
+                dirText.append(SingleWord(word))
+
+    return lineText
 
 
 def getCastFromSegment(segment):
@@ -47,4 +64,4 @@ def getCastFromSegment(segment):
     return castList
 
 
-scriptToObj("Scripts/Normalized Scripts/ThePonyRemarkFixed.txt")
+scriptToObj("Scripts/Normalized Scripts/TheStockTipFixed.txt")

@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 class SceneLine(ABC):
 
     @abstractmethod
-    def getText(self):
+    def getFullLineText(self):
         pass
 
 
@@ -12,7 +12,7 @@ class LineText(ABC):
     value = ""
 
     @abstractmethod
-    def getValue(self):
+    def getInlineVal(self):
         pass
 
 
@@ -34,24 +34,41 @@ class DialogueLine(SceneLine):
         self.speaker = speaker
         self.lineTextArray = lineTextArray
 
-    def getText(self):
-        return self.lineTextArray
+    def getFullLineText(self):
+        fullLineText = self.speaker + ": ["
+        for lineText in self.lineTextArray:
+            if isinstance(lineText, LineText):
+                fullLineText = fullLineText + "{" + str((lineText.getInlineVal())) + "} "
+            else:
+                print("FullLine ERROR")
+                return " "
+        return fullLineText + "]"
 
 
 class StageDir(SceneLine, LineText):
     def __init__(self, dirText):
         self.dirText = dirText
 
-    def getText(self):
-        return self.dirText
+    def getFullLineText(self):
+        return self.dirTextToString()
 
-    def getValue(self):
-        return self.dirText
+    def getInlineVal(self):
+        return self.dirTextToString()
+
+    def dirTextToString(self):
+        dirTextString = "DIR: "
+        for dirWord in self.dirText:
+            if isinstance(dirWord, SingleWord):
+                dirTextString = dirTextString + "{" + str(dirWord.getInlineVal()) + "}" + ' '
+            else:
+                print("DirText ERROR")
+                return " "
+        return dirTextString[:-1]
 
 
-class DialogueWord(LineText):
+class SingleWord(LineText):
     def __init__(self, wordText):
         self.wordText = wordText
 
-    def getValue(self):
+    def getInlineVal(self):
         return self.wordText
