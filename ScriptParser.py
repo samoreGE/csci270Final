@@ -6,7 +6,7 @@ def scriptToObj(scriptPath):
         for line in file_in:
             lineText = line.replace("\n", "")
             # print(lineText + "(END LINE)")
-            parseLine(lineText)
+            parseLine(splitOnPunct(lineText))
 
 
 def parseLine(lineText):
@@ -16,7 +16,7 @@ def parseLine(lineText):
         print("STAGE DIRECTION")
     elif lineText.find(':') > -1:
         print("DIALOGUE")
-        parsedDiaLine = parseDialogue(splitOnPunct(lineText))
+        parsedDiaLine = parseDialogue(lineText)
         print(parsedDiaLine.getFullLineText())
 
 
