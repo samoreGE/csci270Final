@@ -1,10 +1,17 @@
 from abc import ABC, abstractmethod
 
 
+class Chainable(ABC):
+
+    @abstractmethod
+    def getChainableSource(self):
+        pass
+
+
 class SceneLine(ABC):
 
     @abstractmethod
-    def getFullLineText(self):
+    def getSceneLineText(self):
         pass
 
 
@@ -23,18 +30,27 @@ class Episode:
 
 
 class Scene:
-    def __init__(self, setting, cast, lines):
+    def __init__(self, epTitle, setting, lines):
+        self.epTitle = epTitle
         self.setting = setting
-        self.cast = cast
         self.lines = lines
 
+    def getCast(self):
+        castList = set()
+        for line in self.lines:
+            if isinstance(line, DialogueLine):
+                castList.add(line.speaker)
+        return castList
 
-class DialogueLine(SceneLine):
-    def __init__(self, speaker, lineTextArray):
+
+class DialogueLine(SceneLine, Chainable):
+
+    def __init__(self, epTitle, speaker, lineTextArray):
+        self.epTitle = epTitle
         self.speaker = speaker
         self.lineTextArray = lineTextArray
 
-    def getFullLineText(self):
+    def getSceneLineText(self):
         fullLineText = self.speaker + ": ["
         for lineText in self.lineTextArray:
             if isinstance(lineText, LineText):
@@ -44,12 +60,22 @@ class DialogueLine(SceneLine):
                 return " "
         return fullLineText + "]"
 
+    def getChainableSource(self):
+        chainableSourceOut = []
+        for lineText in self.lineTextArray:
+            if isinstance(lineText, SingleWord):
+                chainableSourceOut.append(SingleWord.getInlineVal())
+            else:
+                chainableSourceOut.append("STAGEDIR")
+        return chainableSourceOut
+
 
 class StageDir(SceneLine, LineText):
-    def __init__(self, dirText):
+    def __init__(self, epTitle, dirText):
+        self.epTitle = epTitle
         self.dirText = dirText
 
-    def getFullLineText(self):
+    def getSceneLineText(self):
         return self.dirTextToString()
 
     def getInlineVal(self):
@@ -67,8 +93,9 @@ class StageDir(SceneLine, LineText):
 
 
 class SingleWord(LineText):
-    def __init__(self, wordText):
-        self.wordText = wordText
+    def __init__(self, epTitle, word):
+        self.epTitle = epTitle
+        self.word = word
 
     def getInlineVal(self):
-        return self.wordText
+        return self.word
