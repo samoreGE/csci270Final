@@ -10,8 +10,8 @@ class MarkovChain:
         else:
             print("ERROR: DATA < ORDER")
 
-    def makeKey(self, index):
-        
+    #def makeKey(self, index):
+
 
 
 class MarkovNode:
