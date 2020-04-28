@@ -23,10 +23,14 @@ class LineText(ABC):
         pass
 
 
-class Episode:
+class Episode(Chainable):
     def __init__(self, title, scenes):
         self.title = title
         self.scenes = scenes
+
+    def getChainableSource(self):
+        chainableSourceOut = []
+        return chainableSourceOut
 
 
 class Scene(Chainable):
@@ -42,6 +46,11 @@ class Scene(Chainable):
                 castList.add(line.speaker)
         return castList
 
+    def getChainableSource(self):
+        chainableSourceOut = []
+
+        return chainableSourceOut
+
 
 class DialogueLine(SceneLine, Chainable):
 
@@ -51,14 +60,14 @@ class DialogueLine(SceneLine, Chainable):
         self.lineTextArray = lineTextArray
 
     def getSceneLineText(self):
-        fullLineText = self.speaker + ": ["
+        fullLineText = self.speaker + ": "
         for lineText in self.lineTextArray:
             if isinstance(lineText, LineText):
-                fullLineText = fullLineText + "{" + str((lineText.getInlineVal())) + "} "
+                fullLineText = fullLineText + str(lineText.getInlineVal()) + " "
             else:
                 print("FullLine ERROR")
                 return " "
-        return fullLineText + "]"
+        return fullLineText
 
     def getChainableSource(self):
         chainableSourceOut = []
@@ -84,16 +93,16 @@ class StageDir(SceneLine, LineText, Chainable):
     def getChainableSource(self):
         chainableSourceOut = []
         return chainableSourceOut
-    
-    def ___dirTextToString(self):
-        dirTextString = "DIR: "
+
+    def dirTextToString(self):
+        dirTextString = "("
         for dirWord in self.dirText:
             if isinstance(dirWord, SingleWord):
-                dirTextString = dirTextString + "{" + str(dirWord.getInlineVal()) + "}" + ' '
+                dirTextString = dirTextString + str(dirWord.getInlineVal()) + ' '
             else:
                 print("DirText ERROR")
                 return " "
-        return dirTextString[:-1]
+        return dirTextString[:-1] + ")"
 
 
 class SingleWord(LineText):

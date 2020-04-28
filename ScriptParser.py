@@ -10,15 +10,14 @@ def scriptToEpisodeObj(scriptPath, epName):
             lineText = line.replace("\n", "")
             if lineText[0] == "[":
                 if len(sceneLines) > 0:
-                    print("Making Scene, setting= " + setting + ", " + str(len(sceneLines)) + " line(s)")
-                    episodeScenes.append(Scene(epName, setting, sceneLines))
+                    newScene = Scene(epName, setting, sceneLines)
+                    print("Making Scene, setting= " + setting + ", " + str(len(sceneLines)) + " line(s), cast: " + str(newScene.getCast()))
+                    episodeScenes.append(newScene)
                     sceneLines = []
                 if lineText[:9] == "[Setting:":
                     setting = lineText[10:-1]
-            elif lineText[:6] == "(Scene":
-                print("SCENE ENDS")
-            else:
-                newParsedLine = parseLine(splitOnPunct(lineText), epName)
+            elif lineText[:6] != "(Scene":
+                newParsedLine = parseLine(lineText.replace(".", " . ").replace(",", " , ").replace("!", " ! ").replace("?", " ? ").replace('"', " \" "), epName)
                 if isinstance(newParsedLine, SceneLine):
                     sceneLines.append(newParsedLine)
                 else:
@@ -78,12 +77,7 @@ def parseDiaLine(diaLine, epName):
                 dirText = []
             else:
                 dirText.append(SingleWord(epName, word))
-
     return lineText
-
-
-def splitOnPunct(line):
-    return line.replace(".", " . ").replace(",", " , ").replace("!", " ! ").replace("?", " ? ").replace('"', " \" ")
 
 
 scriptToEpisodeObj("Scripts/Normalized Scripts/ThePonyRemarkFixed.txt", "The Pony Remark")
