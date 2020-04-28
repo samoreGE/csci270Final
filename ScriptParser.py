@@ -8,16 +8,13 @@ def scriptToEpisodeObj(scriptPath, epName):
         episodeScenes = []
         for line in file_in:
             lineText = line.replace("\n", "")
-            #print(lineText)
             if lineText[0] == "[":
                 if len(sceneLines) > 0:
                     print("Making Scene, setting= " + setting + ", " + str(len(sceneLines)) + " line(s)")
                     episodeScenes.append(Scene(epName, setting, sceneLines))
                     sceneLines = []
-                print("SCENE BEGINS")
                 if lineText[:9] == "[Setting:":
                     setting = lineText[10:-1]
-                print(setting)
             elif lineText[:6] == "(Scene":
                 print("SCENE ENDS")
             else:

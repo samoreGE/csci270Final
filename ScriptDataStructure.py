@@ -29,7 +29,7 @@ class Episode:
         self.scenes = scenes
 
 
-class Scene:
+class Scene(Chainable):
     def __init__(self, epTitle, setting, lines):
         self.epTitle = epTitle
         self.setting = setting
@@ -66,11 +66,11 @@ class DialogueLine(SceneLine, Chainable):
             if isinstance(lineText, SingleWord):
                 chainableSourceOut.append(SingleWord.getInlineVal())
             else:
-                chainableSourceOut.append("STAGEDIR")
+                chainableSourceOut.append(SingleWord(self.epTitle, "STAGEDIR"))
         return chainableSourceOut
 
 
-class StageDir(SceneLine, LineText):
+class StageDir(SceneLine, LineText, Chainable):
     def __init__(self, epTitle, dirText):
         self.epTitle = epTitle
         self.dirText = dirText

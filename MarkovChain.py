@@ -5,7 +5,8 @@ class MarkovChain:
 
     def addData(self, newDataArray):
         if len(newDataArray) > self.order:
-            asdf
+            for index in range(len(newDataArray)):
+                print("test")
         else:
             print("ERROR: DATA < ORDER")
 
