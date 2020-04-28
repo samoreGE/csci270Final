@@ -81,7 +81,11 @@ class StageDir(SceneLine, LineText, Chainable):
     def getInlineVal(self):
         return self.dirTextToString()
 
-    def dirTextToString(self):
+    def getChainableSource(self):
+        chainableSourceOut = []
+        return chainableSourceOut
+    
+    def ___dirTextToString(self):
         dirTextString = "DIR: "
         for dirWord in self.dirText:
             if isinstance(dirWord, SingleWord):
