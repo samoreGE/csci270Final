@@ -1,7 +1,7 @@
 class MarkovChain:
     def __init__(self, order=1):
         self.order = order
-        self.data = []
+        self.nodes = []
 
     def addData(self, newDataArray):
         if len(newDataArray) > self.order:
@@ -9,6 +9,9 @@ class MarkovChain:
                 print("test")
         else:
             print("ERROR: DATA < ORDER")
+
+    def makeKey(self, index):
+        
 
 
 class MarkovNode:
