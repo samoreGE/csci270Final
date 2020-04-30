@@ -39,7 +39,7 @@ class MarkovChain:
         return self.nodes[nodeKey]
 
     def pickRandom(self, startNode):
-        
+
 
     def getSumOfNode(self, node):
         nodeSum=0

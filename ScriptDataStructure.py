@@ -63,10 +63,7 @@ class Scene(Chainable):
     def getChainableSource(self):
         chainableSourceOut = []
         for lineText in self.lineTextArray:
-            if isinstance(lineText, SingleWord):
-                chainableSourceOut.append(lineText.getKeyVer())
-            else:
-                chainableSourceOut.append("STAGEDIR")
+            chainableSourceOut.append(lineText.getKeyVer())
         return chainableSourceOut
 
 
