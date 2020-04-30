@@ -28,10 +28,7 @@ def getCharLines(episode, character):
         if isinstance(scene, Scene):
             for line in scene.lines:
                 if isinstance(line, DialogueLine):
-                    if line.speaker == character:
-                        print("Line where speaker==" + character + " found!")
-                        print("Line value: " + str(line.getChainableSource()))
-                        characterLines.append(line)
+                    pass
                 elif not isinstance(line, StageDir):
                     print("ERROR: NEW EPISODE NOT MADE")
         else:
@@ -39,4 +36,4 @@ def getCharLines(episode, character):
 
 
 demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
-getAllCharLines(demoNames, "jerry")
+makeDemo(demoNames, "jerry")
