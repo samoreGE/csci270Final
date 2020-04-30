@@ -5,8 +5,9 @@ from ScriptParser import *
 def makeDemo(epNames, character):
     episodes = []
     for name in epNames:
-        newEpisodeObject = scriptToEpisodeObj("Scripts/Normalized Scripts/" + name + ".txt", name)
+        newEpisodeObject = scriptToEpisodeObj("Scripts/Normalized Scripts/" + name + "Fixed.txt", name)
         episodes.append(newEpisodeObject)
 
 
-makeDemo()
+demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend"]
+makeDemo(demoNames, "jerry")
