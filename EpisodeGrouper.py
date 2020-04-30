@@ -26,17 +26,24 @@ def getEpisodes(epNames):
 def getCharLines(episode, character):
     characterLines = []
     for scene in episode.scenes:
-        if isinstance(scene, Scene):
-            for line in scene.lines:
-                if isinstance(line, DialogueLine):
-                    if line.speaker == character:
-                        characterLines.append(line)
-                elif not isinstance(line, StageDir):
-                    print("ERROR: NEW EPISODE NOT MADE")
-        else:
-            print("ERROR: NON-SCENE FOUND IN EPISODE")
+        for line in scene.lines:
+            if isinstance(line, DialogueLine):
+                if line.speaker == character:
+                    characterLines.append(line)
     return characterLines
 
 
+def checkResults(lines, speaker):
+    allGood = True
+    for line in lines:
+        if not isinstance(line, DialogueLine):
+            allGood = False
+        if not line.speaker == speaker:
+            allGood = False
+        print(line.getChainableSource())
+    if allGood:
+        print("All Good!")
+
+
 demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
-getAllCharLines(demoNames, "jerry")
+checkResults(getAllCharLines(demoNames, "george"), "george")
