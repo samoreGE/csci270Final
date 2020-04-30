@@ -28,6 +28,13 @@ class Episode(Chainable):
         self.title = title
         self.scenes = scenes
 
+    def getCast(self):
+        castList = set()
+        for scene in self.scenes:
+            for char in scene.getCast():
+                castList.add(char)
+        return castList
+
     def getChainableSource(self):
         chainableSourceOut = []
         return chainableSourceOut

@@ -92,7 +92,7 @@ ELAINE: Alright. (to Jerry, upset) I can't go.
 [Setting: Mr. Pitt's Apartment]
 (Elaine is kneeling with the phone. She has Mr. Pitt's mail spread out on the floor in front of her and is going through it for Mr. Pitt's benefit.)
 ELAINE: ...Uhm, the new Time magazine. The new People...
-MR. PITT (O.C.): (piqued interest) Oh, who's on the cover?
+MR. PITT: (piqued interest) Oh, who's on the cover?
 [Setting: Street]
 (Jerry walks down the street. He passes a doorway, where stands a familiar figure. The doorman still has the attitude problem.)
 DOORMAN: Hey, buddy.
@@ -380,7 +380,7 @@ FRANK: I know what you're saying, and I know what you're thinking!!
 FARKUS: No, Frank...
 FRANK: C'mon, Cosmo, I'm not doing business with this guy.
 (Frank storms out in a rage. Kramer gives Farkus an 'I'll calm him down' look and follows Frank out the door.)
-KRAMER (O.C.): Frank!
+KRAMER: Frank!
 [Setting: George's Apartment]
 (Frank and Kramer have just arrived, to find George packing a suitcase.)
 GEORGE: Jerry took the couch back.

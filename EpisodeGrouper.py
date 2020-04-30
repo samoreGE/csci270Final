@@ -9,6 +9,7 @@ def getAllCharLines(epNames, character):
         for line in getCharLines(episode, character):
             if isinstance(line, DialogueLine):
                 allCharLines.append(line)
+        print("Ep Name: "+episode.title + ", cast:"+str(episode.getCast()))
     return allCharLines
 
 
@@ -34,13 +35,14 @@ def getCharLines(episode, character):
 
 
 def checkResults(lines, speaker):
+    print("Checking results...")
     allGood = True
     for line in lines:
         if not isinstance(line, DialogueLine):
             allGood = False
         if not line.speaker == speaker:
             allGood = False
-        print(line.getChainableSource())
+        #print(line.getChainableSource())
     if allGood:
         print("All Good!")
 
