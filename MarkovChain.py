@@ -39,20 +39,35 @@ class MarkovChain:
         return self.nodes[nodeKey]
 
     def pickRandom(self, startNode):
-
+        randVal = random.randrange(self.getSumOfNode(startNode))
+        return randVal
 
     def getSumOfNode(self, node):
-        nodeSum=0
+        nodeSum = 0
         for key in node.keys():
-            nodeSum+= node[key]
+            nodeSum += node[key]
         return nodeSum
+
+    def getValAtNodeLoc(self, node, loc):
+        indexSum = 0
+        print("node: " + str(node))
+        for key in node.keys():
+            print("key: " + key)
+            if indexSum > loc:
+                return key
+            print("indexSum=" + str(indexSum))
+            indexSum += node[key]
+
+    def getRandomNodeVal(self, node):
+        randomVal = self.pickRandom(self.getSumOfNode(node))
+        return self.getValAtNodeLoc(node, randomVal)
 
     def generate(self):
         generatedText = ""
         return generatedText
 
 
-random.seed("Seinfeld Babey!")
+# random.seed("Seinfeld Babey!")
 
 demoChain = MarkovChain(1)
 demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
@@ -61,3 +76,5 @@ for line in jerryLines:
     demoChain.addData(line.getChainableSource())
 
 print(demoChain.generate())
+nodeToTest = demoChain.nodes["DATASTART"]
+print(demoChain.getRandomNodeVal(nodeToTest))
