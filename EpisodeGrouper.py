@@ -45,7 +45,4 @@ def checkResults(lines, speaker):
         #print(line.getChainableSource())
     if allGood:
         print("All Good!")
-
-
-demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
-checkResults(getAllCharLines(demoNames, "george"), "george")
+    return allGood
