@@ -1,4 +1,5 @@
 from EpisodeGrouper import *
+import random
 
 
 class MarkovChain:
@@ -37,9 +38,26 @@ class MarkovChain:
             self.nodes[nodeKey] = dict()
         return self.nodes[nodeKey]
 
+    def pickRandom(self, startNode):
+        
+
+    def getSumOfNode(self, node):
+        nodeSum=0
+        for key in node.keys():
+            nodeSum+= node[key]
+        return nodeSum
+
+    def generate(self):
+        generatedText = ""
+        return generatedText
+
+
+random.seed("Seinfeld Babey!")
 
 demoChain = MarkovChain(1)
 demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
 jerryLines = getAllCharLines(demoNames, "jerry")
 for line in jerryLines:
     demoChain.addData(line.getChainableSource())
+
+print(demoChain.generate())

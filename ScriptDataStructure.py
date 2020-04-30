@@ -62,7 +62,11 @@ class Scene(Chainable):
 
     def getChainableSource(self):
         chainableSourceOut = []
-
+        for lineText in self.lineTextArray:
+            if isinstance(lineText, SingleWord):
+                chainableSourceOut.append(lineText.getKeyVer())
+            else:
+                chainableSourceOut.append("STAGEDIR")
         return chainableSourceOut
 
 
@@ -86,17 +90,14 @@ class DialogueLine(SceneLine, Chainable, Keyable):
     def getChainableSource(self):
         chainableSourceOut = []
         for lineText in self.lineTextArray:
-            if isinstance(lineText, SingleWord):
-                chainableSourceOut.append(lineText.getKeyVer())
-            else:
-                chainableSourceOut.append("STAGEDIR")
+            chainableSourceOut.append(lineText.getKeyVer())
         return chainableSourceOut
 
     def getKeyVer(self):
         return self.speaker
 
 
-class StageDir(SceneLine, LineText, Chainable):
+class StageDir(SceneLine, LineText, Chainable, Keyable):
     def __init__(self, epTitle, dirText):
         self.epTitle = epTitle
         self.dirText = dirText
@@ -109,6 +110,8 @@ class StageDir(SceneLine, LineText, Chainable):
 
     def getChainableSource(self):
         chainableSourceOut = []
+        for dirWord in self.dirText:
+            chainableSourceOut.append(dirWord.getKeyVer())
         return chainableSourceOut
 
     def dirTextToString(self):
@@ -120,6 +123,9 @@ class StageDir(SceneLine, LineText, Chainable):
                 print("DirText ERROR")
                 return " "
         return dirTextString[:-1] + ")"
+
+    def getKeyVer(self):
+        return "STAGEDIR"
 
 
 class SingleWord(LineText, Keyable):
