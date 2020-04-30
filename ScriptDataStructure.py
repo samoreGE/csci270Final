@@ -73,7 +73,7 @@ class DialogueLine(SceneLine, Chainable):
         chainableSourceOut = []
         for lineText in self.lineTextArray:
             if isinstance(lineText, SingleWord):
-                chainableSourceOut.append(SingleWord.getInlineVal())
+                chainableSourceOut.append(lineText.getInlineVal())
             else:
                 chainableSourceOut.append(SingleWord(self.epTitle, "STAGEDIR"))
         return chainableSourceOut

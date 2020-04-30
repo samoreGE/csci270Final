@@ -26,6 +26,7 @@ def getCharLines(episode, character):
                 if isinstance(line, DialogueLine):
                     if line.speaker == character:
                         print("Line where speaker==" + character + " found!")
+                        print("Line value: " + str(line.getChainableSource()))
                 elif not isinstance(line, StageDir):
                     print("ERROR: NEW EPISODE NOT MADE")
         else:
