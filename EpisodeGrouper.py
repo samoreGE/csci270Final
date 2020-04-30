@@ -4,9 +4,11 @@ from ScriptParser import *
 
 def getAllCharLines(epNames, character):
     episodes = getEpisodes(epNames)
-    allCharLines =
+    allCharLines = []
     for episode in episodes:
-        getCharLines(episode, character)
+        for line in getCharLines(episode, character):
+            if isinstance(line, DialogueLine):
+
 
 
 def getEpisodes(epNames):
