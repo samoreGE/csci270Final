@@ -2,7 +2,7 @@ from ScriptDataStructure import *
 from ScriptParser import *
 
 
-def makeDemo(epNames, character):
+def getAllCharLines(epNames, character):
     episodes = getEpisodes(epNames)
     for episode in episodes:
         getCharLines(episode, character)
@@ -20,6 +20,7 @@ def getEpisodes(epNames):
 
 
 def getCharLines(episode, character):
+    characterLines = []
     for scene in episode.scenes:
         if isinstance(scene, Scene):
             for line in scene.lines:
@@ -27,6 +28,7 @@ def getCharLines(episode, character):
                     if line.speaker == character:
                         print("Line where speaker==" + character + " found!")
                         print("Line value: " + str(line.getChainableSource()))
+                        characterLines.append(line)
                 elif not isinstance(line, StageDir):
                     print("ERROR: NEW EPISODE NOT MADE")
         else:
@@ -34,4 +36,4 @@ def getCharLines(episode, character):
 
 
 demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
-makeDemo(demoNames, "jerry")
+getAllCharLines(demoNames, "jerry")
