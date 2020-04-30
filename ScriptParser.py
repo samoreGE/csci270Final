@@ -11,29 +11,31 @@ def scriptToEpisodeObj(scriptPath, epName):
             if lineText[0] == "[":
                 if len(sceneLines) > 0:
                     newScene = Scene(epName, setting, sceneLines)
-                    print("New Scene, setting: " + setting + ", " + str(len(sceneLines)) + " line(s), cast: " + str(newScene.getCast()))
+                    # print("New Scene, setting: " + setting + ", " + str(len(sceneLines)) + " line(s), cast: " + str(newScene.getCast()))
                     episodeScenes.append(newScene)
                     sceneLines = []
                 if lineText[:9] == "[setting:":
                     setting = lineText[10:-1]
             elif lineText[:6] != "(scene":
-                newParsedLine = parseLine(lineText.replace(".", " . ").replace(",", " , ").replace("!", " ! ").replace("?", " ? ").replace('"', " \" "), epName)
+                newParsedLine = parseLine(
+                    lineText.replace(".", " . ").replace(",", " , ").replace("!", " ! ").replace("?", " ? ").replace(
+                        '"', " \" "), epName)
                 if isinstance(newParsedLine, SceneLine):
                     sceneLines.append(newParsedLine)
                 else:
                     print("LINE TYPE MISMATCH")
-        print("New Episode, name: " + epName + ", scene count: " + str(len(episodeScenes)))
+        # print("New Episode, name: " + epName + ", scene count: " + str(len(episodeScenes)))
         return Episode(epName, episodeScenes)
 
 
 def parseLine(lineText, epName):
     if lineText[0] == '(':
         parsedStageDir = parseStageDir(lineText, epName)
-#        print(parsedStageDir.getSceneLineText())
+        #        print(parsedStageDir.getSceneLineText())
         return parsedStageDir
     elif lineText.find(':') > -1:
         parsedDiaLine = parseDialogue(lineText, epName)
-#        print(parsedDiaLine.getSceneLineText())
+        #        print(parsedDiaLine.getSceneLineText())
         return parsedDiaLine
 
 
