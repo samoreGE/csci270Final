@@ -87,7 +87,7 @@ class DialogueLine(SceneLine, Chainable, Keyable):
         chainableSourceOut = []
         for lineText in self.lineTextArray:
             if isinstance(lineText, SingleWord):
-                chainableSourceOut.append(lineText.getInlineVal())
+                chainableSourceOut.append(lineText.getKeyVer())
             else:
                 chainableSourceOut.append("STAGEDIR")
         return chainableSourceOut
