@@ -7,16 +7,16 @@ def scriptToEpisodeObj(scriptPath, epName):
         sceneLines = []
         episodeScenes = []
         for line in file_in:
-            lineText = line.replace("\n", "")
+            lineText = line.replace("\n", "").lower()
             if lineText[0] == "[":
                 if len(sceneLines) > 0:
                     newScene = Scene(epName, setting, sceneLines)
-                    print("Making Scene, setting= " + setting + ", " + str(len(sceneLines)) + " line(s), cast: " + str(newScene.getCast()))
+                    print("Making Scene, setting: " + setting + ", " + str(len(sceneLines)) + " line(s), cast: " + str(newScene.getCast()))
                     episodeScenes.append(newScene)
                     sceneLines = []
-                if lineText[:9] == "[Setting:":
+                if lineText[:9] == "[setting:":
                     setting = lineText[10:-1]
-            elif lineText[:6] != "(Scene":
+            elif lineText[:6] != "(scene":
                 newParsedLine = parseLine(lineText.replace(".", " . ").replace(",", " , ").replace("!", " ! ").replace("?", " ? ").replace('"', " \" "), epName)
                 if isinstance(newParsedLine, SceneLine):
                     sceneLines.append(newParsedLine)
