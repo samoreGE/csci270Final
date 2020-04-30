@@ -1,0 +1,182 @@
+(MaleUnbonding) come  on  ,  let's  go  do  something  .  i  don't  want  to  just  sit  around  here  .
+(MaleUnbonding) want  to  go  get  something  to  eat  ?
+(MaleUnbonding) i  don't  care  ,  i'm  not  hungry  .
+(MaleUnbonding) what  are  we  gonna  do  there  ?  talk  ?
+(MaleUnbonding) i'll  go  if  i  don't  have  to  talk  .
+(MaleUnbonding) okay  .  i'm  gonna  check  my  machine  first  .
+(MaleUnbonding) STAGEDIR  "  picking  someone  up  at  the  airport  .  "  "  jury  duty  .  "  "  waiting  for  cable  guy  .  "
+(MaleUnbonding) oh  ,  what  is  this  ?
+(MaleUnbonding) i  got  some  for  you  .
+(MaleUnbonding) no  ,  no  ,  no  ,  no  ,  no  ,  these  are  good  .  listen  ,  listen
+(MaleUnbonding) how  about
+(MaleUnbonding) STAGEDIR  here  ,  here  .  jerry  seinfeld  ,  i  cannot  believe  you're  doing  this  .  this  is  absolutely  infantile  .
+(MaleUnbonding) deal  with  it  .  be  a  man  !
+(MaleUnbonding) you  made  a  man  cry  ?  i've  never  made  a  man  cry  .  i  even  kicked  a  guy  in  the  groin  once  and  he  didn't  cry  .  .  i  got  the  cab  .
+(MaleUnbonding) wait  ,  what  pizza  place  idea  ?
+(MaleUnbonding) oh  ,  that  sounds  like  a  great  idea  .  it  would  be  fun  .
+(MaleUnbonding) hi  .
+(MaleUnbonding) oh  ,  no  ,  no  .  tuesday's  no  good  because  we've  got  choir  practice  .
+(MaleUnbonding) we're  doing  that  evening  of  eastern  european  national  anthems  .
+(MaleUnbonding) huh  .  .  .  thursday  is  not  good  because  we've  got  to  get  to  the  hospital  to  see  if  we  qualify  as  those  organ  donors  .
+(TheDoorman) where've  you  been  ?  we're  gonna  miss  the  movie  ,  let's  go  .
+(TheDoorman) what  guy  ?
+(TheDoorman) six  .  but  then  the  night  doorman  comes  on  .  he's  much  scarier  .  STAGEDIR  whugh  !  STAGEDIR  ha-ha  .
+(TheDoorman) STAGEDIR  i  .  .  .
+(TheDoorman) STAGEDIR  okay  ,  okay  .
+(TheDoorman) jerry  ,  it's  six  .  STAGEDIR  let's  go  .
+(TheDoorman) no  ,  don't  .  .  .
+(TheDoorman) STAGEDIR  give  that  to  me  .
+(TheDoorman) STAGEDIR  hello  mr  .  pitt  .  how's  scotland  ?
+(TheDoorman) a  party  .  oh  no  ,  that  was  just  my  stupid  friend  jerry  .
+(TheDoorman) believe  me  ,  we're  not  entertained  .  we  were  just  leaving  .  STAGEDIR  oh  ,  can  you  grab  those  empty  bottles  for  me  .
+(TheDoorman) oh  ,  well  ,  mr  .  pitt  ,  there's  really  nothing  that  can't  wait  .  we're  trying  to  catch  a  movie  .
+(TheDoorman) alright  .  STAGEDIR  i  can't  go  .
+(TheDoorman) .  .  .  uhm  ,  the  new  time  magazine  .  the  new  people  .  .  .
+(TheDoorman) STAGEDIR  what  ?  what'd  you  say  to  the  doorman  ?
+(TheDoorman) STAGEDIR  he  claims  that  you  followed  him  home  ,  and  started  harassing  him  .
+(TheDoorman) hey  ,  did  you  make  the  movie  ?
+(TheDoorman) you  wanna  go  tonight  ?  you  can  pick  me  up  .
+(TheDoorman) ugh  .  so  now  we  have  to  rearrange  our  lives  to  avoid  the  doorman  ?
+(TheDoorman) what  is  wrong  with  george  ?
+(TheDoorman) i  can't  believe  you  left  your  post  .
+(TheDoorman) STAGEDIR  hey  ,  what's  up  ?  what's  going  on  here  ?
+(TheDoorman) STAGEDIR  jerry  ,  let's  get  out  of  here  .
+(TheDoorman) what  were  you  doing  watching  the  door  anyway  ?
+(TheDoorman) STAGEDIR  you  know  ,  my  fingerprints  are  all  over  this  .  that  doorman  knows  you're  a  friend  of  mine  .  he'll  tell  that  co-op  lady  ,  she'll  tell  mr  .  pitt  .  .  .  jerry  ,  i'm  in  this  too  deep  .
+(TheDoorman) STAGEDIR  alright  ,  shut  up  .  shut  up  .  just  let  me  think  .  i  gotta  think  .  we  gotta  get  our  story  straight  .
+(TheDoorman) alright  ,  STAGEDIR  here  it  is  .  this  is  what  we'll  tell  'em  .  you  came  to  pick  me  up  .  .  .
+(TheDoorman) yeah  .  that's  what  i  just  said  .
+(TheDoorman) yeah  ,  i  know  what  you  were  just  .  it's  not  helping  .
+(TheDoorman) okay  ,  you  came  to  pick  me  up  at  .  .  .
+(TheDoorman) you  see  ?  again  .
+(TheDoorman) alright  ,  you  came  right  upstairs  ,  without  talking  to  the  doorman  .
+(TheDoorman) STAGEDIR  so  what  ?  no-one's  gonna  believe  a  doorman  !
+(TheDoorman) STAGEDIR  just  stick  with  the  story  .  we'll  be  fine  .  let  me  do  the  talking  !
+(TheDoorman) good  .  now  fix  me  a  drink  .
+(TheDoorman) oh  really  ?  STAGEDIR  the  doorman  .  and  ,  pray  tell  ,  what  did  the  doorman  say  ?
+(TheDoorman) STAGEDIR  oh  ,  my  .  well  ,  the  doorman  certainly  has  a  wild  imagination  ,  doesn't  he  ?
+(TheDoorman) STAGEDIR  he  never  watched  a  door  before  ,  mrs  payton  ,  he  didn't  know  how  to  do  it  .  STAGEDIR  you  know  ,  he's  a  comedian  ,  mrs  payton  ,  they  don't  know  how  to  do  anything  .
+(TheDoorman) STAGEDIR  don't  you  see  what's  going  on  here  ?  he  set  us  up  .  he's  playing  all  these  mindgames  .
+(TheDoorman) STAGEDIR  there  was  nothing  i  could  do  .  he  said  he  had  a  federal  express  slip  with  your  signature  on  it  .
+(TheDoorman) is  it  possible  we  were  victims  of  a  sting  ?
+(TheDoorman) anyway  ,  jerry  .  .  .  jerry  ?
+(TheDoorman) we  have  to  replace  the  couch  .
+(TheDoorman) but  it's  got  a  pee-stain  on  it  .
+(TheDoorman) STAGEDIR  i  guess  .
+(TheDoorman) it's  a  beautiful  couch  .
+(TheDoorman) wha  .  .  .  ?
+(TheExGirlfriend) hi  .
+(TheExGirlfriend) hey  ,  what  are  you  doing  ?
+(TheExGirlfriend) oh  no  .  no  .  i  don't  want  to  sit  in  the  back  .  i'll  be  left  out  of  the  conversation  .
+(TheExGirlfriend) yes  ,  i  will  ,  george  .  i'll  have  to  sick  my  chin  on  top  of  the  seat  .
+(TheExGirlfriend) why  can't  you  sit  in  the  middle  ?
+(TheExGirlfriend) i  think  you're  afraid  to  sit  next  to  a  man  .  you're  a  little  homophobic  ,  aren't  you  ?
+(TheExGirlfriend) hello  ,  jerry  .
+(TheExGirlfriend) did  you  get  a  haircut  ?
+(TheExGirlfriend) tell  me  if  you  think  this  is  strange
+(TheExGirlfriend) and  now  ,  there's  this  intense  animosity  whenever  we  passs  .  i  mean  ,  it's  like  we  really  hate  each  other  .  it's  based  on  nothing  .
+(TheExGirlfriend) really  ?
+(TheExGirlfriend) you  would  do  that  ?
+(TheExGirlfriend) hi  .  STAGEDIR
+(TheExGirlfriend) you  know  ,  you  have  the  slowest  elevator  in  the  entire  city  ?  that's  hard  to  get  used  to  when  you're  in  so  many  other  fast  ones  .
+(TheExGirlfriend) unless  you're  married  to  a  dictator  .  .
+(TheExGirlfriend) right  .  exactly  .  so  i  imagine  at  some  point  ,  somebody's  going  to  offer  me  some  cantaloupe  .
+(TheExGirlfriend) so  ,  i  had  what  you  might  call  a  little  encounter  this  morning  .
+(TheExGirlfriend) yep  .
+(TheExGirlfriend) yep  .  i  spotted  him  getting  his  mail  .  and  at  first  ,  i  was  just  going  to  walk  on  by  ,  but  then  i  thought  "  no  ,  no  ,  no  ,  no  .  do  not  be  afraid  of  this  man  .  "
+(TheExGirlfriend) so  ,  i  walked  up  behind  him  and  i  tapped  him  on  the  shoulder  .  and  i  said  ,  "  hi  ,  remember  me  ?  "  and  he  furrows  his  brow  as  if  he's  really  trying  to  figure  it  out  .  so  i  said  to  him  ,  i  said  ,  "  you  little  phony  .  you  know  exactly  who  i  am  .  "
+(TheExGirlfriend) i  did  .  i  most  certainly  did  .  and  he  said  ,  he  goes  ,  "  oh  ,  yeah  .  you're  jeanette's  friend  .  we  did  meet  once  .  "  and  i  said  ,  "  well  ,  how  do  you  go  from  that  to  totally  ignoring  a  person  when  they  walk  by  ?  "
+(TheExGirlfriend) and  he  says  ,  he  says  ,  "  look  ,  i  just  didn't  want  to  say  hello  anymore  ,  alright  ?  "  and  i  said  ,  "  fine  .  fine  i  didn't  want  to  say  hello  anymore  either  ,  but  i  wanted  you  to  know  that  i'm  aware  of  it  .  "
+(TheExGirlfriend) this  cantaloupe  stinks  .  STAGEDIR
+(TheJacket) the  back  ?  they  never  find  anything  in  the  back  .  if  they  had  anything  good  in  the  back  ,  they'd  put  it  out  in  the  front  .
+(TheJacket) yeah  .
+(TheJacket) i'm  not  so  sure  he  wants  one  .  STAGEDIR  hey  ,  don't  forget  sunday  ,  okay  ?  you  and  george  are  coming  ,  right  ?  hotel  westbury  ,  eight  o'  clock  .
+(TheJacket) what  ?  what  ,  you  don't  want  to  go  now  ?
+(TheJacket) no  ,  jerry  ,  you  have  to  .  i  need  a  buffer  .  you  know  ,  i  haven't  seen  my  father  in  a  while  and  .  .  you  know  .
+(TheJacket) so  ,  that's  why  we're  not  together  anymore  .
+(TheJacket) try  it  on  .  STAGEDIR  wow  ,  this  is  soft  suede  .
+(TheJacket) STAGEDIR  oh  my  god  .
+(TheJacket) you  have  no  idea  .
+(TheJacket) no  idea  .
+(TheJacket) there  is  no  park  and  the  team  has  relocated  .
+(TheJacket) oh  man  ,  that  is  a  beautiful  jacket  ,  though  .
+(TheJacket) well  ,  it's  just  a  lining  .  you  can  always  have  it  changed  .
+(TheJacket) i'm  sorry  .  i'm  so  sorry  .  where  is  dad  ?
+(TheJacket) kramer  ,  that  .  .  kramer  !  i'm  just  about  to  leave  ,  he  calls  me  up  .  he  begs  me  to  sit  in  his  car  for  two  minutes  ,  so  he  can  pick  up  these  birds  .  .
+(TheJacket) well  ,  he  said  he'd  drive  me  here  right  after  .  so  ,  i  am  sitting  in  his  car  twenty  minutes  !  he  doesn't  come  down  .  i  am  freezing  .  then  a  cop  comes  by  ,  tells  me  to  get  out  of  the  car  .  he's  a  city  marshal  .  he's  towing  the  car  away  .  kramer  owes  thousands  of  dollars  in  back  tickets  .  he  was  going  to  tow  it  with  me  in  the  car  !  so  ,  they  tow  the  car  .  now  ,  i  am  standing  outside  ,  and  i  am  freezing  ,  but  i  cannot  leave  because  i  have  to  tell  him  what  happened  to  the  car  .  .  so  ,  finally  ,  he  finally  comes  down  with  his  giant  cage  filled  with  doves  .  he  said  he  was  getting  special  instructions  ,  that  each  dove  has  a  different  diet  .  so  ,  we're  wandering  around  trying  to  get  a  cab  ,  when  two  of  these  doves  fly  out  !  now  we're  running  down  the  street  after  these  doves  .  i  almost  got  hit  by  a  bus  .  STAGEDIR  .  .  so  how's  everything  going  over  here  ?
+(TheJacket) good  .  'cause  dad  can  make  some  people  a  little  uncomfortable  .
+(TheJacket) man  ,  kramer  !  i  could  kill  him  .
+(TheJacket) he  said  he'd  give  me  a  lift  .
+(TheJacket) oh  ,  hi  ,  dad  .
+(TheJacket) no  one  .
+(TheJacket) fine  .
+(TheJacket) yeah  ,  i'm  reading  manuscripts  for  pendant  publishing  .  i  told  you  ten  times  .
+(TheJacket) ohh  .  .  it's  snowing  .  it's  beautiful  .
+(TheJacket) yeah  .
+(TheJacket) okay  .  .  STAGEDIR  hello  .  STAGEDIR  listen  ,  thanks  again  for  coming  last  night  .  dad  said  he  had  a  great  time  .
+(TheJacket) no  ,  he's  driving  back  to  maryland  tonight  .
+(TheJacket) STAGEDIR  i  didn't  want  to  tell  you  this  ,  but  usually  he  hates  everyone  .
+(TheJacket) STAGEDIR  yeah  ,  he  like  you  though  .  said  you  reminded  him  of  somebody  he  knew  in  korea  .
+(TheJacket) dad  thinks  george  is  gay  .
+(TheJacket) no  ,  he  pretty  much  thinks  everyone  is  gay  .
+(TheJacket) STAGEDIR  isn't  that  .  .  ?  STAGEDIR  oh  ,  is  this  front  he  snow  last  night  ?  STAGEDIR  ugh  .  .  you  know  what  you  should've  done  ?  you  should've  turned  it  inside  out  .
+(ThePonyRemark) no  ,  no  .  i'm  fine  .
+(ThePonyRemark) STAGEDIR  jerry  ,  jerry  .  did  you  taste  these  peas  ?  these  peas  are  great  !
+(ThePonyRemark) mmm  .  .  phenomenal  peas  .  .
+(ThePonyRemark) i  don't  really  eat  dessert  .  i'm  dieting  .
+(ThePonyRemark) what  about  ponies  ?  what  kind  of  abnormal  animal  is  that  ?  and  those  kids  who  had  their  own  ponies  .  .
+(ThePonyRemark) i  actually  like  ponies  .  i  was  just  trying  to  make  conversation  .  what  time's  your  game  ?
+(ThePonyRemark) and  what  time's  the  funeral  ?
+(ThePonyRemark) how  long  does  a  funeral  take  ?
+(ThePonyRemark) so  you  cna't  do  both  ?
+(ThePonyRemark) how  can  you  even  consider  not  going  ?
+(ThePonyRemark) you  know  ,  funerals  always  make  me  think  about  my  own  mortality  and  how  i'm  actually  going  to  die  someday  .  me  ,  dead  .  imagine  that  .
+(ThePonyRemark) is  this  a  waste  of  time  ?  what  should  we  be  doing  ?  can't  you  hae  coffee  with  people  ?
+(ThePonyRemark) he  has  to  go  .  he  may  have  killed  her  .
+(ThePonyRemark) oh  ,  yeah  ,  but  i  didn't  say  i  hated  anyone  who  had  one  .
+(ThePonyRemark) maybe  she's  there  in  spirit  .  how  about  that  ?
+(ThePonyRemark) george  ,  i  met  this  woman  !  she  is  not  traveling  to  any  other  dimensions  .
+(ThePonyRemark) phoenix  ?  what's  happening  with  his  appartment  ?
+(ThePonyRemark) three  hundred  a  month  ?  oh  my  god  .
+(ThePonyRemark) oh  ,  me  too  .
+(ThePonyRemark) so  ,  i  understand  you're  moving  to  phoenix  ?
+(ThePonyRemark) mmm  .  .  gorgeous  ,  exquisite  town  .  who  ,  what's  happening  with  your  apartment  ?
+(ThePonyRemark) oh  ,  you  can  have  mine  .  i'll  ship  it  out  ot  you  .  .  but  what  about  that  big  apartment  on  west  end  avenue  ?
+(ThePonyRemark) dry  ,  wet  .  .  what's  happening  with  your  apartment  ?
+(ThePonyRemark) i  have  an  idea  .  leave  the  winter  clothing  in  the  apartment  ,  and  i'll  watch  it  for  you  and  i'll  live  there  and  i'll  make  sure  that  nothing  happens  to  it  .
+(ThePonyRemark) STAGEDIR  oh  ,  jeffrey  .
+(ThePonyRemark) yeah  ,  from  what  i  understand  ,  he  works  for  the  parks  department  .
+(ThePonyRemark) i  remember  saying  to  myself  ,  "  why  is  jerry  so  far  off  the  base  ?  "
+(ThePonyRemark) i  couldn't  believe  it  when  i  saw  you  running  .  i  thought  maybe  they  had  changed  the  rules  or  something  .
+(ThePonyRemark) makes  you  wonder  ,  though  ,  doesn't  it  ?
+(ThePonyRemark) you  know  .  .  the  spirit  world  .
+(ThePonyRemark) i  never  saw  anyone  play  like  that  .
+(ThePonyRemark) yeah  ,  but  that  doesn't  make  up  for  killing  her  .
+(TheStockTip) i  know  ,  i  know  .  i'm  sorry  i'm  late  .
+(TheStockTip) i  dropped  a  grape  .
+(TheStockTip) i  dropped  a  grape  in  the  kitchen  and  it  disappeared  .  i  couldn't  find  it  .  i  was  .  .  .  i  was  literally  on  my  knees  for  ten  minutes  looking  for  this  stupid  grape  .  i  have  no  idea  where  it  went  .
+(TheStockTip) no  ,  i'm  just  getting  over  an  allergy  attack  .  this  guy  i'm  going  out  with  -
+(TheStockTip) robert  .  yes  .  .  thank  you  .  he  has  two  cats  and  i'm  allergic  to  them  .  you  know  ,  i  finally  meet  a  normal  man  ,  and  i  can't  even  go  into  his  apartment  ,  you  know  .  and  ,  of  course  ,  my  apartment  is  the  actor's  studio  so  we  can't  go  there  .  it's  really  causing  a  lot  of  problems  ,  you  know  .  he  won't  even  go  away  fro  the  weekend  because  of  these  cats  .
+(TheStockTip) vanessa  .
+(TheStockTip) STAGEDIR  hey  ,  why  don't  you  take  her  to  that  place  in  vermont  i  was  telling  you  about  ?  you  know  ,  that  really  charming  place  with  the  separate  faucets  for  the  hot  and  cold  .  she'll  love  it  .
+(TheStockTip) you're  getting  what  ?
+(TheStockTip) i'd  do  it  but  i  don't  have  any  money  .
+(TheStockTip) televising  opera  ?
+(TheStockTip) tuna  ?
+(TheStockTip) they're  dying  in  the  nets  .
+(TheStockTip) jerry  ,  can't  you  incorporate  one  unselfish  act  in  your  daily  routine  ?
+(TheStockTip) and  i'm  going  to  have  an  english  muffin  with  margarine  on  the  side  and  a  cup  of  coffee  .
+(TheStockTip) thank  you  .  what  evidence  is  there  that  cats  are  so  smart  ,  anyway  ?  huh  ?  what  do  they  do  ?  because  they're  clean  ?  i  am  sorry  .  my  uncle  pete  showers  four  times  a  day  and  he  can't  count  to  ten  .  so  don't  give  me  hygiene  .
+(TheStockTip) i  don't  know  .  i  can't  think  of  any  solution  ,  unless  of  course  they  should  meet  with  some  unfortunate  accident  .  what  do  you  think  a  hit  man  would  charge  to  rub  out  a  couple  of  cats  ?
+(TheStockTip) what  do  you  think  ,  jerry  ?  you  wanna  make  twenty-eight  bucks  ?
+(TheStockTip) how  about  we  go  over  there  right  now  and  we  shave  them  ?
+(TheStockTip) he  actually  wen  to  the  hospital  ?
+(TheStockTip) oh  man  ,  he's  nuts  .
+(TheStockTip) didn't  work  ,  huh  ?
+(TheStockTip) well  ,  what  are  you  gonna  do  about  the  stock  ?
+(TheStockTip) i'm  kinda  full  .
+(TheStockTip) no  ,  i  just  have  a  cold  .
+(TheStockTip) i  gave  him  an  ultimatum  .  STAGEDIR
+(TheStockTip) they're  very  clean  animals  .
+(TheStockTip) almost  as  bad  as  losing  out  to  a  perfume  .
+(TheStockTip) superman  can  go  back  in  time  ?

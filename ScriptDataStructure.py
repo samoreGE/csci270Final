@@ -8,6 +8,13 @@ class Chainable(ABC):
         pass
 
 
+class Keyable(ABC):
+
+    @abstractmethod
+    def getKeyVer(self):
+        pass
+
+
 class SceneLine(ABC):
 
     @abstractmethod
@@ -59,7 +66,7 @@ class Scene(Chainable):
         return chainableSourceOut
 
 
-class DialogueLine(SceneLine, Chainable):
+class DialogueLine(SceneLine, Chainable, Keyable):
 
     def __init__(self, epTitle, speaker, lineTextArray):
         self.epTitle = epTitle
@@ -84,6 +91,9 @@ class DialogueLine(SceneLine, Chainable):
             else:
                 chainableSourceOut.append("STAGEDIR")
         return chainableSourceOut
+
+    def getKeyVer(self):
+        return self.speaker
 
 
 class StageDir(SceneLine, LineText, Chainable):
@@ -112,10 +122,13 @@ class StageDir(SceneLine, LineText, Chainable):
         return dirTextString[:-1] + ")"
 
 
-class SingleWord(LineText):
+class SingleWord(LineText, Keyable):
     def __init__(self, epTitle, word):
         self.epTitle = epTitle
         self.word = word
 
     def getInlineVal(self):
         return self.word
+
+    def getKeyVer(self):
+        return self.getInlineVal()
