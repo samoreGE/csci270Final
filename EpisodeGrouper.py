@@ -5,7 +5,8 @@ from ScriptParser import *
 def makeDemo(epNames, character):
     episodes = getEpisodes(epNames)
     for episode in episodes:
-        getCharLines(episodes, character)
+        getCharLines(episode, character)
+
 
 def getEpisodes(epNames):
     episodes = []
@@ -17,12 +18,14 @@ def getEpisodes(epNames):
             print("ERROR: NEW EPISODE NOT MADE")
     return episodes
 
+
 def getCharLines(episode, character):
     for scene in episode.scenes:
         if isinstance(scene, Scene):
-            for line in scene:
+            for line in scene.lines:
                 if isinstance(line, DialogueLine):
-                    
+                    if line.speaker == character:
+                        print("Line where speaker==" + character + " found!")
                 elif not isinstance(line, StageDir):
                     print("ERROR: NEW EPISODE NOT MADE")
         else:
