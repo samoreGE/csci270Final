@@ -26,6 +26,7 @@
 (MaleUnbonding) yeah  ,  i'll  have  the  egg  salad  on  whole  wheat  .
 (MaleUnbonding) how  can  you  talk  to  someone  like  that  ?
 (MaleUnbonding) listen  ,  joel  .  there's  something  i  have  to  tell  you  .
+(MaleUnbonding) howard  metro  .
 (MaleUnbonding) .  .  listen  ,  joel  .  .  i  don't  think  we  should  see  each  other  anymore  .
 (MaleUnbonding) this  friendship  .  .  it's  not  working  .
 (MaleUnbonding) we're  just  not  suited  to  be  friends  .
@@ -89,6 +90,7 @@
 (MaleUnbonding) this  is  too  much  .
 (MaleUnbonding) oh  ,  no  .
 (MaleUnbonding) perfect  .
+(MaleUnbonding) no  thanks  .
 (MaleUnbonding) oh  ,  we  finished  early  .
 (MaleUnbonding) elaine  benes  ,  this  is  joel  horneck  .
 (MaleUnbonding) we're  still  friends  .

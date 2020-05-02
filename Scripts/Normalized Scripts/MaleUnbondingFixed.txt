@@ -75,7 +75,8 @@ JERRY: How can you talk to someone like that?
 JOEL: What are you saying? What, you like turkey roll?
 JERRY: Listen, Joel. There's something I have to tell you.
 JOEL: Wait, you'll never guess who I ran into.
-JERRY AND JOEL: Howard metro.
+JERRY: Howard metro.
+JOEL: Howard metro.
 JOEL: He asked me if I still saw you. I said, "Sure, I see him all the time. We're great friends." Anyway, Howard says hello.
 JERRY: ..listen, Joel.. I don't think we should see each other anymore.
 JOEL: what?
@@ -239,7 +240,8 @@ JERRY: Perfect.
 (Horneck enters.)
 JOEL: Hey..
 KRAMER: Okay, who wants meatloaf?
-JERRY AND ELAINE: No thanks.
+JERRY: No thanks.
+ELAINE: No thanks.
 KRAMER: (to Joel) It's gonna be hot in a minute. (exits)
 JOEL: So, I though you were tutoring your nephew?
 JERRY: Oh, we finished early.
