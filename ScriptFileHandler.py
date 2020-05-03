@@ -2,7 +2,7 @@ from EpisodeGrouper import *
 from os import listdir
 
 
-def getCharLinesFromFile(fileName):
+def importCharLinesFromFile(fileName):
     allCharLines = []
     with open("Data/"+fileName) as file_in:
         for line in file_in:
@@ -28,9 +28,10 @@ def makeScriptFileForChar(epNames, character):
         f.write("(" + line.epTitle+") "+lineToAdd[1:-1] + "\n")
 
 
+
 demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
 charNames = ["jerry", "kramer", "elaine", "george"]
 
 makeCharLineFiles(demoNames, charNames)
-for data in listdir("Data/"):
-    getCharLinesFromFile(data)
+for name in listdir("Data/"):
+    importCharLinesFromFile(name)
