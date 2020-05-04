@@ -42,7 +42,7 @@ class SceneBuilder:
                     self.tempChain[entry][speaker3] = 0
                 self.tempChain[entry][speaker3] += 1
 
-    def sceneGenerateTest(self, cast):
+    def sceneGenerate(self, cast):
         map = {}
         for i in cast:
             for l in cast:
@@ -51,23 +51,37 @@ class SceneBuilder:
                     for m in cast:
                         if m in self.tempChain[(i,l)]:
                             count += self.tempChain[(i,l)][m]
-                    map[(i,l)] = {}
+                            map[(i,l)] = {}
                     for m in cast:
                         if m in self.tempChain[(i,l)]:
-                            print(str(self.tempChain[(i,l)][m]) + " " + str(count))
                             map[(i,l)][m] = (self.tempChain[(i,l)][m])/count
-        print(self.generate(map))
+        print(map)
+        return self.generate(map)
 
-    #The following two programs were taken directly from Dr. Goadrich's in-class Markov chain code
+    #The following two function were taken directly from Dr. Goadrich's in-class Markov chain code, although the
+    #generate function has been modified
     def generate(self, mc):
         current = list(random.choice(list(mc.keys())))
         print(current)
         seq = []
-        for i in range(20):
+        for i in range(30):
             seq.append(self.discrete_prob(mc[tuple(current)]))
             current = current[1:] + [seq[-1]]
+            if current not in list(mc.keys()):
+                current = list(random.choice(list(mc.keys())))
             print(current)
-        return seq
+        newSeq = []
+        for i in range(len(seq) - 1):
+            if i == 0:
+                if seq[0] != seq[1]:
+                    newSeq.append(seq[0])
+                    newSeq.append(seq[1])
+                else:
+                    newSeq.append(seq[0])
+            else:
+                if seq[i] != seq[i + 1]:
+                    newSeq.append(seq[i + 1])
+        return newSeq
 
     def discrete_prob(self, d):
         r = random.random()
@@ -77,5 +91,6 @@ class SceneBuilder:
             if r < sum:
                 return k
 
-
+test = SceneBuilder(["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"])
+test.sceneGenerate(['jerry', 'george', 'doorman 2', 'STAGEDIR'])
 
