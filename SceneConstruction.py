@@ -42,8 +42,7 @@ class SceneBuilder:
                     self.tempChain[entry][speaker3] = 0
                 self.tempChain[entry][speaker3] += 1
 
-    def sceneGenerateTest(self):
-        cast = ["elaine", "jerry", "george", "joel", "STAGEDIR"]
+    def sceneGenerateTest(self, cast):
         map = {}
         for i in cast:
             for l in cast:
@@ -79,6 +78,4 @@ class SceneBuilder:
                 return k
 
 
-test = SceneBuilder(["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"])
-print(test.tempChain[('elaine', 'jerry')])
-test.sceneGenerateTest()
+
