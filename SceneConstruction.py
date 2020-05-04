@@ -31,12 +31,21 @@ class SceneBuilder:
                     speaker3 = s.lines[l + 2].getSceneLineText().split(":")[0]
                 else:
                     speaker3 = "STAGEDIR"
-                entry = (speaker3, speaker2, speaker1) #ordered most recent to least recent
+                entry = (speaker1, speaker2) #ordered most recent to least recent
                 if entry not in self.tempKeys:
                     self.tempKeys.add(entry)
-                    self.tempChain[entry] = 0
-                self.tempChain[entry] += 1
+                    self.tempChain[entry] = {}
+                    self.tempChain[entry]['entrySet'] = set({})
+                if speaker3 not in self.tempChain[entry]['entrySet']:
+                    self.tempChain[entry]['entrySet'].add(speaker3)
+                    self.tempChain[entry][speaker3] = 0
+                self.tempChain[entry][speaker3] += 1
+
+    
+
+
+
 
 test = SceneBuilder(["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"])
 test.lineChainBuilder()
-print(test.tempChain[('elaine', 'jerry', 'elaine')])
+print(test.tempChain[('elaine', 'jerry')])
