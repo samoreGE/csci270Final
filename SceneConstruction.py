@@ -7,6 +7,7 @@ class SceneBuilder:
         self.tempChain = {}
         self.tempKeys = set({})
         self.sceneList = self.readScenes()
+        self.lineChainBuilder()
 
     def readScenes(self):
         scenes = []
@@ -41,11 +42,43 @@ class SceneBuilder:
                     self.tempChain[entry][speaker3] = 0
                 self.tempChain[entry][speaker3] += 1
 
-    
+    def sceneGenerateTest(self):
+        cast = ["elaine", "jerry", "george", "joel", "STAGEDIR"]
+        map = {}
+        for i in cast:
+            for l in cast:
+                count = 0
+                if (i,l) in self.tempChain.keys():
+                    for m in cast:
+                        if m in self.tempChain[(i,l)]:
+                            count += self.tempChain[(i,l)][m]
+                    map[(i,l)] = {}
+                    for m in cast:
+                        if m in self.tempChain[(i,l)]:
+                            print(str(self.tempChain[(i,l)][m]) + " " + str(count))
+                            map[(i,l)][m] = (self.tempChain[(i,l)][m])/count
+        print(self.generate(map))
 
+    #The following two programs were taken directly from Dr. Goadrich's in-class Markov chain code
+    def generate(self, mc):
+        current = list(random.choice(list(mc.keys())))
+        print(current)
+        seq = []
+        for i in range(20):
+            seq.append(self.discrete_prob(mc[tuple(current)]))
+            current = current[1:] + [seq[-1]]
+            print(current)
+        return seq
 
+    def discrete_prob(self, d):
+        r = random.random()
+        sum = 0
+        for k in d:
+            sum += d[k]
+            if r < sum:
+                return k
 
 
 test = SceneBuilder(["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"])
-test.lineChainBuilder()
 print(test.tempChain[('elaine', 'jerry')])
+test.sceneGenerateTest()
