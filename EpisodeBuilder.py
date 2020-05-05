@@ -60,6 +60,10 @@ class EpisodeBuilder:
         for m in episode:
             print(m)
 
+def makeEpisode(builder, title)
+    random.seed(title)
+
+
 random.seed("Jerry Has A Gun")
 test = EpisodeBuilder(["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"])
 test.episodeBuilder()
