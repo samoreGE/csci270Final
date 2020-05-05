@@ -24,7 +24,7 @@ def makeSplitScript(scriptFile):
 
 
 def makeLineByType(lineString):
-    print("makeLineByType(" + lineString + ")")
+    #print("makeLineByType(" + lineString + ")")
     # CHANGE PER FILE
     if lineString[-1] == ']':
         # print("settingLine!")
@@ -62,5 +62,9 @@ def makeCharLine(charLineArray):
         textOut += word
     return textOut
 
+<<<<<<< Updated upstream
 
 fixScriptText("Scripts/Raw Scripts/ThePickRaw.txt")
+=======
+fixScriptText("Scripts/Raw Scripts/TheContestRaw.txt")
+>>>>>>> Stashed changes
