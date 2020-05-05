@@ -25,7 +25,7 @@ class EpisodeBuilder:
             self.characterChain(m)
 
     def characterChain(self, character):
-        tempChain = MarkovChain(1)
+        tempChain = MarkovChain(3) #Change order here
         characterLines = getAllCharLines(self.episodes, character)
         for line in characterLines:
             tempChain.addData(line.getChainableSource())
@@ -35,6 +35,7 @@ class EpisodeBuilder:
         bob = SceneBuilder(self.episodes)
         episode = []
         sceneCount = 3 #Edit this value to reflect how many scenes long you want the episode
+        episode.append("JERRY: " + self.chains["jerrym"].generate(100))
         for i in range(sceneCount):
             mainCast = random.sample(self.mainCharacters, random.randint(2, 3))
             suppCast = random.sample(self.suppCharacters, random.randint(0, 2))
@@ -46,7 +47,7 @@ class EpisodeBuilder:
                 if l is "STAGEDIR":
                     episode.append("STAGEDIR")
                 else:
-                    episode.append(l.upper() + ": " + self.chains[l].generate())
+                    episode.append(l.upper() + ": " + self.chains[l].generate(50))
             episode.append("(Scene end)")
         for m in episode:
             print(m)

@@ -70,6 +70,7 @@ class Scene(Chainable):
 class DialogueLine(SceneLine, Chainable, Keyable):
 
     def __init__(self, epTitle, speaker, lineTextArray):
+        self.type = "line"
         self.epTitle = epTitle
         self.speaker = speaker
         self.lineTextArray = lineTextArray
@@ -96,6 +97,7 @@ class DialogueLine(SceneLine, Chainable, Keyable):
 
 class StageDir(SceneLine, LineText, Chainable, Keyable):
     def __init__(self, epTitle, dirText):
+        self.type = "direction"
         self.epTitle = epTitle
         self.dirText = dirText
 

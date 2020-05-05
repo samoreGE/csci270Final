@@ -69,7 +69,6 @@ class SceneBuilder:
             current = current[1:] + [seq[-1]]
             if current not in list(mc.keys()):
                 current = list(random.choice(list(mc.keys())))
-            print(current)
         newSeq = []
         for i in range(len(seq) - 1):
             if i == 0:
