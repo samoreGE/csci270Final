@@ -11,9 +11,9 @@ class MarkovChain:
         print("adding data from " + str(newDataArray))
         if len(newDataArray) >= self.order:
             nodeKey = tuple(self.makeStartingKey(newDataArray))
-            for index in range(len(newDataArray) - self.order):
+            for index in range(len(newDataArray) - self.order + 1):
                 newKey = tuple(self.makeKey(newDataArray, index))
-                nextWord = newDataArray[index+self.order]
+                nextWord = newDataArray[index+self.order-1]
                 self.addToNode(nodeKey, nextWord)
                 nodeKey = newKey
             self.addToNode(nodeKey, tuple(["DATAEND"]))
@@ -22,7 +22,7 @@ class MarkovChain:
 
     def makeStartingKey(self, list):
         outKey = ["DATASTART"]
-        for index in range(self.order-1):
+        for index in range(self.order):
             outKey.append(list[index])
         return outKey
 
@@ -95,7 +95,7 @@ class MarkovChain:
         return generatedText
 
 
-# random.seed("Seinfeld Babey!")
+random.seed("Seinfeld Babey!")
 
 demoChain = MarkovChain(2)
 demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
