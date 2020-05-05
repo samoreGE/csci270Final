@@ -10,19 +10,22 @@ class MarkovChain:
     def addData(self, newDataArray):
         print("adding data from " + str(newDataArray))
         if len(newDataArray) >= self.order:
-            nodeKey = "DATASTART"
-            for index in range(len(newDataArray) - self.order + 1):
-                newKey = self.makeKey(newDataArray, index)
+            nodeKey = tuple(["DATASTART"])
+            for index in range(len(newDataArray) - self.order):
+                newKey = tuple(self.makeKey(newDataArray, index))
                 self.addToNode(nodeKey, newKey)
+                print("tuple at index", index, "has length", len(newKey))
                 nodeKey = newKey
-            self.addToNode(nodeKey, "DATAEND")
+            self.addToNode(nodeKey, tuple(["DATAEND"]))
         else:
             print("ERROR: DATA < ORDER")
 
     def makeKey(self, source, index):
-        outKey = ""
-        for loc in range(self.order):
-            outKey += source[loc + index]
+        outKey = []
+        print("making key, index:", index)
+        if (index + self.order) < len(source):
+            for loc in range(self.order):
+                outKey.append(source[loc + index])
         return outKey
 
     def addToNode(self, nodeKey, linkKey):
@@ -46,7 +49,7 @@ class MarkovChain:
         nodeSum = -1
         for key in node.keys():
             nodeSum += node[key]
-        print("nodeSum="+str(nodeSum))
+        print("nodeSum=" + str(nodeSum))
         return nodeSum
 
     def getValAtNodeLoc(self, node, loc):
@@ -64,23 +67,32 @@ class MarkovChain:
             locVal = 0
         return self.getValAtNodeLoc(node, locVal)
 
+    def getRandomStartingVal(self):
+        x = 0
+        while True:
+            randomKey = random.choice(list(self.nodes.keys()))
+            print(randomKey)
+            if randomKey == "DATASTART":
+                return randomKey
+
     def generate(self):
         print("Generating...")
         generatedText = ""
-        currentNodeKey = "DATASTART"
+        currentNodeKey = tuple(["DATASTART"])
         length = 0
-        while currentNodeKey != "DATAEND" and (length < 50):
-            print("currentNodeKey: " + currentNodeKey + ", data: " + str(self.nodes[currentNodeKey]))
+        while currentNodeKey[-1] != "DATAEND" and (length < 50):
+            print("currentNodeKey: " + str(currentNodeKey) + ", data: " + str(self.nodes[currentNodeKey]))
             newKey = self.getRandomNodeVal(self.nodes[currentNodeKey])
-            generatedText += newKey + " "
-            currentNodeKey = newKey
+            generatedText += str(newKey[-1:]) + " "
+            if currentNodeKey[-1] != "DATAEND":
+                currentNodeKey = newKey
             length += 1
-        return generatedText[:-9]
+        return generatedText
 
 
-#random.seed("Seinfeld Babey!")
+# random.seed("Seinfeld Babey!")
 
-demoChain = MarkovChain(1)
+demoChain = MarkovChain(2)
 demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
 jerryLines = getAllCharLines(demoNames, "jerry")
 print("adding lines to chain!")
