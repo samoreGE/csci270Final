@@ -19,7 +19,7 @@ class EpisodeBuilder:
             for c in castList:
                 if c not in self.suppCharacters and c not in self.mainCharacters:
                     self.suppCharacters.add(c)
-        directChain = MarkovChain(2)
+        directChain = MarkovChain(2) #Change direction order here
         stageDirections = getAllStageDirs(self.episodes)
         for direction in stageDirections:
             directChain.addData(direction.getChainableSource())
@@ -30,7 +30,11 @@ class EpisodeBuilder:
             self.characterChain(m)
 
     def characterChain(self, character):
+<<<<<<< Updated upstream
         tempChain = MarkovChain(2) #Change order here
+=======
+        tempChain = MarkovChain(2) #Change line order here
+>>>>>>> Stashed changes
         characterLines = getAllCharLines(self.episodes, character)
         for line in characterLines:
             tempChain.addData(line.getChainableSource())
