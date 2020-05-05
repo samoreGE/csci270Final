@@ -1,6 +1,7 @@
 from MarkovChain import *
 from SceneConstruction import *
 from EpisodeGrouper import *
+import os
 import random
 
 class EpisodeBuilder:
@@ -30,7 +31,7 @@ class EpisodeBuilder:
             self.characterChain(m)
 
     def characterChain(self, character):
-        tempChain = MarkovChain(2) #Change order here
+        tempChain = MarkovChain(3) #Change order here
         characterLines = getAllCharLines(self.episodes, character)
         for line in characterLines:
             tempChain.addData(line.getChainableSource())
@@ -66,8 +67,12 @@ class EpisodeBuilder:
         for line in self.buildScript():
             f.write(line.replace(" .", ".").replace(" ?", "?").replace(" !", "!") + '\n')
 
+episodes = []
+for fileName in os.listdir("Scripts/Normalized Scripts"):
+    if fileName.endswith("Fixed.txt"):
+        episodes.append(fileName[:-9])
 
-test = EpisodeBuilder(["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"])
+test = EpisodeBuilder(episodes)
 test.writeEpisode("TheCompSciFinal")
 
 
