@@ -10,25 +10,35 @@ class MarkovChain:
     def addData(self, newDataArray):
         print("adding data from " + str(newDataArray))
         if len(newDataArray) >= self.order:
-            nodeKey = tuple(self.makeStartingKey(newDataArray))
-            for index in range(len(newDataArray) - self.order + 1):
-                newKey = tuple(self.makeKey(newDataArray, index))
-                nextWord = newDataArray[index+self.order-1]
-                self.addToNode(nodeKey, nextWord)
-                nodeKey = newKey
-            self.addToNode(nodeKey, tuple(["DATAEND"]))
+            for index in range(-1, len(newDataArray)):
+                self.addDataAtIndex(newDataArray, index)
         else:
             print("ERROR: DATA < ORDER")
 
     def makeStartingKey(self, list):
         outKey = ["DATASTART"]
-        for index in range(self.order):
+        for index in range(self.order-1):
             outKey.append(list[index])
         return outKey
 
+    def addDataAtIndex(self, dataArray, index):
+        print("index=" + str(index))
+        if index<0:
+            nodeKey = tuple(self.makeStartingKey(dataArray))
+            nextWord = dataArray[self.order-1]
+            self.addToNode(nodeKey, nextWord)
+        elif index < (len(dataArray) - self.order):
+            nextWord = dataArray[index + self.order]
+            nodeKey = tuple(self.makeKey(dataArray, index))
+            self.addToNode(nodeKey, nextWord)
+        elif index == (len(dataArray) - self.order):
+            nextWord = "DATAEND"
+            nodeKey = tuple(self.makeKey(dataArray, index))
+            self.addToNode(nodeKey, nextWord)
+
     def makeKey(self, source, index):
         outKey = []
-        if (index + self.order) < len(source):
+        if (index + self.order) <= len(source):
             for loc in range(self.order):
                 outKey.append(source[loc + index])
         return outKey
@@ -77,7 +87,7 @@ class MarkovChain:
         while True:
             randomKey = random.choice(list(self.nodes.keys()))
             print(randomKey)
-            if randomKey == "DATASTART":
+            if randomKey[0] == "DATASTART":
                 return randomKey
 
     def generate(self):
