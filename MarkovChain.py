@@ -10,26 +10,31 @@ class MarkovChain:
     def addData(self, newDataArray):
         print("adding data from " + str(newDataArray))
         if len(newDataArray) >= self.order:
-            nodeKey = tuple(["DATASTART"])
+            nodeKey = tuple(self.makeStartingKey(newDataArray))
             for index in range(len(newDataArray) - self.order):
                 newKey = tuple(self.makeKey(newDataArray, index))
-                self.addToNode(nodeKey, newKey)
-                print("tuple at index", index, "has length", len(newKey))
+                nextWord = newDataArray[index+self.order]
+                self.addToNode(nodeKey, nextWord)
                 nodeKey = newKey
             self.addToNode(nodeKey, tuple(["DATAEND"]))
         else:
             print("ERROR: DATA < ORDER")
 
+    def makeStartingKey(self, list):
+        outKey = ["DATASTART"]
+        for index in range(self.order-1):
+            outKey.append(list[index])
+        return outKey
+
     def makeKey(self, source, index):
         outKey = []
-        print("making key, index:", index)
         if (index + self.order) < len(source):
             for loc in range(self.order):
                 outKey.append(source[loc + index])
         return outKey
 
     def addToNode(self, nodeKey, linkKey):
-        # print("nodeKey: " + nodeKey + ", linkKey: " + linkKey)
+        print("nodeKey:",nodeKey,", linkKey:",linkKey)
         if linkKey in self.getNode(nodeKey):
             self.getNode(nodeKey)[linkKey] += 1
         else:
