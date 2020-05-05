@@ -1,4 +1,3 @@
-from ScriptDataStructure import *
 from ScriptParser import *
 
 
@@ -9,7 +8,7 @@ def getAllCharLines(epNames, character):
         for line in getCharLines(episode, character):
             if isinstance(line, DialogueLine):
                 allCharLines.append(line)
-        print("Ep Name: "+episode.title + ", cast:"+str(episode.getCast()))
+        print("Ep Name: " + episode.title + ", cast:" + str(episode.getCast()))
     return allCharLines
 
 
@@ -22,6 +21,28 @@ def getEpisodes(epNames):
         else:
             print("ERROR: NEW EPISODE NOT MADE")
     return episodes
+
+
+def getAllStageDirs(epNames):
+    episodes = getEpisodes(epNames)
+    allStageDirs = []
+    for episode in episodes:
+        for line in getStagDirs(episode):
+            allStageDirs.append(line)
+    return allStageDirs
+
+
+def getStagDirs(episode):
+    stageDirs = []
+    for scene in episode.scenes:
+        for line in scene.lines:
+            if isinstance(line, StageDir):
+                stageDirs.append(line)
+            elif isinstance(line, DialogueLine):
+                for word in line.lineTextArray:
+                    if isinstance(word, DialogueLine):
+                        stageDirs.append(line)
+    return stageDirs
 
 
 def getCharLines(episode, character):
@@ -42,7 +63,13 @@ def checkResults(lines, speaker):
             allGood = False
         if not line.speaker == speaker:
             allGood = False
-        #print(line.getChainableSource())
+        # print(line.getChainableSource())
     if allGood:
         print("All Good!")
     return allGood
+
+
+demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
+stageDirs = getAllStageDirs(demoNames)
+for dir in stageDirs:
+    print(dir.getChainableSource())

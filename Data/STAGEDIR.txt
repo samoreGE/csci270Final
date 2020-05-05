@@ -1,0 +1,206 @@
+(MaleUnbonding) jerry  and  george  are  waiting  for  the  elevator
+(MaleUnbonding) elevator  opens  ,  they  get  on
+(MaleUnbonding) elevator  doors  close
+(MaleUnbonding) elevator  doors  open  ,  they  get  off
+(MaleUnbonding) they  go  into  jerry's  apartment  to  find  kramer  talking  on  the  phone
+(MaleUnbonding) jerry  and  joel  are  sitting  at  a  table
+(MaleUnbonding) waitress  comes  to  their  table
+(MaleUnbonding) waitress  leaves
+(MaleUnbonding) jerry  is  at  the  counter  ,  filling  out  a  slip;  george  is  carrying  a  jug  full  of  pennies  .
+(MaleUnbonding) george  moves  up  in  the  bank  line
+(MaleUnbonding) george  is  up  to  the  teller  ,  jerry  goes  to  another  one  .
+(MaleUnbonding) george  is  stuffing  pennies  into  rolls  .
+(MaleUnbonding) kramer  enters  .
+(MaleUnbonding) jerry  dials  up  joel
+(MaleUnbonding) elaine  sees  a  pad  by  the  phone  ,  and  starts  reading  it  .
+(MaleUnbonding) elaine  laughs  ,  kramer  enters  .
+(MaleUnbonding) horneck  enters  .
+(MaleUnbonding) jerry  shakes  his  head  .
+(TheDoorman) jerry's  standup  act  .
+(TheDoorman) jerry  comes  in  from  the  street  and  walks  toward  the  elevators  .  a  doorman  ,  stood  reading  a  newspaper  on  a  counter  ,  objects  .  there's  an  undertone  to  the  doorman's  voice  -  unfriendly  ,  contemptuous  ,  even  an  edge  of  menace  .
+(TheDoorman) the  doorman  wanders  back  to  his  newspaper  .  jerry  shrugs  and  pushes  the  button  for  one  of  the  elevators  .  there's  a  pause  as  he  waits  for  it  to  arrive  .  the  doorman  stands  holding  his  paper  ,  staring  at  jerry  ,  with  the  unfriendly  smile  on  his  face  .  jerry  throws  a  smile  of  his  own  back  .  the  elevator  is  still  not  moving  .  jerry  tries  to  break  the  uncomfortable  silence  .
+(TheDoorman) jerry  turns  away  and  looks  at  the  indicator  ,  hoping  that  the  elevator  will  come  and  rescue  him  .
+(TheDoorman) george  and  kramer  walk  along  together  .
+(TheDoorman) kramer  has  noticed  a  'sightseeing  tour'  bus  on  the  street  ,  with  a  german  flag  painted  on  the  door  .  it  gives  him  an  idea  .  kramer  steps  in  front  of  george  and  brings  them  to  a  halt  .
+(TheDoorman) kramer  pushes  his  hand  deep  into  a  pocket  and  raises  his  arm  ,  giving  the  impression  that  he  has  a  gun  concealed  beneath  his  coat  .
+(TheDoorman) on  the  tourist  bus  ,  the  occupants  attention  is  attracted  .  they  look  out  the  window  at  the  'mugging'  .  george  has  his  hands  up  ,  and  kramer  is  feeling  through  george's  pockets  with  his  free  hand  .
+(TheDoorman) the  tourist  are  looking  out  of  the  bus  .  shocked  ,  they  knock  on  the  glass  .  kramer  grabs  george  by  the  collar  of  his  jacket  and  is  shaking  him  violently  .
+(TheDoorman) kramer  walks  away  .  the  tourists  stare  ,  horrified  at  what  they've  witnessed  .
+(TheDoorman) elaine  admits  jerry  to  the  apartment  .
+(TheDoorman) elaine  collects  her  bag  ,  in  readiness  to  leave  .
+(TheDoorman) jerry  and  elaine  sit  on  the  couch  to  wait  .  they  simultaneously  look  at  their  watches  .
+(TheDoorman) george  and  kramer  wear  their  jackets  ,  ready  to  leave  .  frank  is  in  a  shirt  ,  mixing  a  bowl  (of  kasha  ?  )  as  they  talk  .
+(TheDoorman) george  and  kramer  stand  together  ,  by  george's  computer  .  frank  unfastens  his  shirt  and  opens  it  .  kramer  and  george  turn  and  see  frank's  torso  exposed  as  the  shirt  comes  off  .  kramer's  eyebrows  go  up  in  surprise  .  george  looks  horrified  ,  and  puts  his  hand  to  his  mouth  like  he's  going  to  vomit  .
+(TheDoorman) elaine  still  sits  on  the  couch  .  jerry  is  standing  at  the  window  ,  holding  the  curtain  open  and  looking  down  at  the  street  .
+(TheDoorman) the  phone  on  mr  .  pitt's  desk  rings  .  jerry  is  nearer  ,  so  he  moves  to  answer  it  .
+(TheDoorman) elaine  looks  exasperated  .
+(TheDoorman) mr  .  pitt  sits  in  a  comfortable  chair  in  scotland  .
+(TheDoorman) jerry  is  peering  out  of  the  window  again  .
+(TheDoorman) jerry  picks  up  a  paper  sack  of  empty  bottles  from  the  floor  by  the  desk  .
+(TheDoorman) jerry  gives  an  irritated  glance  upwards  and  goes  to  leave  .
+(TheDoorman) jerry  emerges  from  the  elevator  (without  the  bottles)  .  there  is  a  new  doorman  on  duty  ,  who  gives  jerry  a  friendly  nod  and  smile  and  holds  the  door  open  for  him  .  jerry  nods  and  smiles  back  ,  and  leaves  .
+(TheDoorman) elaine  is  kneeling  with  the  phone  .  she  has  mr  .  pitt's  mail  spread  out  on  the  floor  in  front  of  her  and  is  going  through  it  for  mr  .  pitt's  benefit  .
+(TheDoorman) jerry  walks  down  the  street  .  he  passes  a  doorway  ,  where  stands  a  familiar  figure  .  the  doorman  still  has  the  attitude  problem  .
+(TheDoorman) jerry  walks  away  .
+(TheDoorman) george  and  kramer  sit  one  side  of  a  booth  ,  facing  jerry  .  george  is  wearing  a  purple  shirt  .  kramer's  eating  a  sandwich  heartily  .  george  looks  as  if  he  might  never  want  to  eat  again  .
+(TheDoorman) george  nods  ,  jerry  has  a  confused  expression  .  kramer  keeps  on  eating  .  jerry  thinks  for  a  moment  ,  george  can't  even  look  anyone  in  the  eye  .
+(TheDoorman) jerry  pulls  a  face  at  the  thought  .
+(TheDoorman) george  snaps  his  finger  and  points  ,  in  agreement  with  jerry  .  he  continues  to  look  deeply  worried  .
+(TheDoorman) kramer  leaves  .  a  buxom  blonde  woman  in  a  purple  shirt  is  making  her  way  to  the  door  ,  as  she  passes  the  booth  she  notices  george  .
+(TheDoorman) the  woman  smiles  and  leaves  .  elaine  enters  monk's  and  comes  over  to  jerry  .  she's  not  happy  about  something  .
+(TheDoorman) elaine  looks  over  at  george  ,  wondering  what  he's  doing  .  george  is  holding  the  neck  of  his  shirt  open  ,  and  is  peering  down  the  inside  of  the  garment  at  his  chest  .  as  elaine  and  jerry  watch  ,  george  jiggles  his  upper  body  ,  to  see  if  there's  any  movement  .
+(TheDoorman) george  ends  his  experiment  ,  and  rises  to  leave  .  he  digs  in  his  wallet  to  pay  the  cheque  .
+(TheDoorman) jerry  enters  from  the  street  ,  only  to  find  the  unpleasant  doorman  standing  inside  the  lobby  .  the  doorman's  demeanour  hasn't  improved  .
+(TheDoorman) the  doorman  swaps  places  with  jerry  ,  putting  jerry  beside  the  counter  .
+(TheDoorman) the  doorman  goes  out  the  door  .  jerry  takes  off  the  hat  ,  which  he's  not  thrilled  about  wearing  ,  and  leans  on  the  counter  .  the  doors  of  an  elevator  open  ,  and  a  young  woman  pushing  a  baby  buggy  emerges  and  heads  for  the  exit  .  after  a  second  ,  jerry  realises  his  job  .  he  puts  on  the  hat  and  opens  the  door  to  allow  the  woman  to  leave  .  as  he  opens  the  door  ,  a  man  enters  and  strolls  past  jerry  into  the  elevator  vacated  by  the  woman  .
+(TheDoorman) the  man  takes  no  notice  of  jerry  ,  the  doors  close  .  the  street  door  opens  and  another  ,  older  guy  ,  enters  .  jerry  moves  and  challenges  him  .
+(TheDoorman) jerry  steps  aside  and  motions  for  the  guy  to  carry  on  into  the  building  ,  but  he  looks  resentful  about  it  .
+(TheDoorman) george  is  riding  the  bus  .  as  the  vehicle  travels  along  the  street  ,  it  rattles  ,  shakes  and  shudders  like  all  poorly  maintained  public  transport  .  george  is  strap-hanging  ,  and  he  gets  a  worried  look  as  he  feels  there  might  be  some  movement  on  his  chest  .  he  puts  his  hands  on  his  chest  ,  then  notices  another  guy  on  the  buss  looking  at  him  .  self-consciously  ,  george  pulls  his  coat  tight  shut  ,  and  crosses  his  arms  firmly  .
+(TheDoorman) jerry  is  standing  behind  the  counter  ,  reading  the  doorman's  newspaper  .  a  fedex  delivery  guy  enters  with  a  package  ,  lays  it  on  the  counter  and  scans  a  barcode  on  it  with  a  little  device  he  takes  from  his  pocket  .  jerry  watches  ,  disinterested  .  there  is  a  brief  pause  ,  as  the  fedex  guy  waits  for  something  .
+(TheDoorman) jerry  takes  the  fedex  guy's  pen  and  signs  for  the  package  ,  then  goes  back  to  the  newspaper  .
+(TheDoorman) jerry  gives  the  guy  a  hostile  look  ,  much  as  the  doorman  might  .
+(TheDoorman) the  fedex  guy  leaves  ,  looking  a  touch  unhappy  at  jerry's  attitude  .  jerry  puts  the  paper  down  ,  and  goes  to  have  a  look  through  the  door  .  there's  no  sign  of  the  doorman  ,  so  jerry  tosses  the  hat  onto  the  counter  ,  dismissing  it  with  a  wave  of  the  hand  as  he  moves  to  the  elevator  .
+(TheDoorman) frank  opens  the  door  ,  to  reveal  kramer  ,  carrying  a  large  portable  record  player  .
+(TheDoorman) kramer  dumps  the  record  player  on  the  chair  .  frank  goes  to  the  couch  ,  not  moving  very  easily  .
+(TheDoorman) kramer  brings  out  a  garment  constructed  of  canvas  and  elasticated  fabric  .
+(TheDoorman) kramer  holds  the  garment  up  to  his  own  chest  .
+(TheDoorman) estelle  is  driving  a  preoccupied-looking  george  .
+(TheDoorman) george  is  miles  away  .
+(TheDoorman) elaine  and  jerry  ride  down  .
+(TheDoorman) the  bell  rings  as  they  reach  the  lobby  ,  and  the  doors  open  .
+(TheDoorman) elaine  and  jerry  emerge  into  the  lobby  to  find  four  or  five  tenants  standing  around  ,  and  a  uniformed  cop  taking  notes  .
+(TheDoorman) jerry  and  elaine  look  shocked  .
+(TheDoorman) elaine  and  jerry  depart  the  scene  of  the  crime  in  some  haste  .
+(TheDoorman) frank's  cha-cha  record  is  playing  loudly  on  the  record  player  .  frank  and  kramer  are  half-dancing  to  the  music  ,  as  frank  tries  on  the  bro  .  kramer  stands  behind  frank  ,  making  adjustments  to  the  garment  .  the  door  opens  and  george  and  estelle  enter  .  they  see  the  dancing  twosome  ,  and  the  undergarment  ,  and  look  stunned  .
+(TheDoorman) george  is  frozen  ,  staring  .  kramer  carries  on  dancing  ,  behind  a  relatively  unfazed  frank  .
+(TheDoorman) the  lighting  ,  with  moonlight  coming  through  the  blinds  ,  and  elaine's  red  dress  ,  give  a  very  noirish  look  to  the  scene  .
+(TheDoorman) elaine  give  jerry  a  look  like  he's  an  idiot  .
+(TheDoorman) frank  has  his  shirt  back  on  ,  over  the  bro  .
+(TheDoorman) frank  walks  a  few  paces  .
+(TheDoorman) kramer  and  frank  share  an  elaborate  and  forceful  handshake  .
+(TheDoorman) george  enters  ,  unhappy  .  he  tosses  his  keys  aside  .
+(TheDoorman) george  looks  down  at  the  floor  for  a  few  seconds  .
+(TheDoorman) the  unpleasant  doorman  is  being  grilled  by  a  severe  looking  mrs  .  payton  .
+(TheDoorman) behind  mrs  .  payton  ,  elaine  enters  from  the  street  and  strolls  to  the  elevator  .
+(TheDoorman) elaine  turns  as  she  hears  this  ,  and  mrs  .  payton  goes  to  talk  to  her  .  elaine  looks  a  tad  worried  at  first  but  ,  of  course  ,  she  has  a  plan  .
+(TheDoorman) the  doorman  peers  over  at  the  conversing
+(TheDoorman) meanwhile  ,  the  doorman  has  discovered  something  behind  the  counter  .  he  brings  out  the  fedex  package  jerry  signed  for  and  carried  it  toward  mrs  .  payton  .
+(TheDoorman) mrs  .  payton  and  the  doorman  both  look  at  elaine  .  elaine  looks  sick  ,  as  she's  caught  out  .
+(TheDoorman) the  doorman  walks  silently  away  with  the  package  and  a  quiet  smile  of  triumph  .
+(TheDoorman) the  doorman  stands  behind  his  counter  ,  smiling  at  elaine's  discomfiture  .
+(TheDoorman) jerry  and  a  downcast  george  sit  one  side  of  a  booth  ,  with  an  animated  elaine  facing  them  .
+(TheDoorman) jerry  stares  off  ,  as  he  imagines  .  .  .
+(TheDoorman) in  the  lobby  of  mr  .  pitt's  building  ,  a  bunch  of  doormen  stand  around  the  unpleasant  doorman  ,  laughing  at  his  tale  .
+(TheDoorman) the  doormen  whoop  it  up  again
+(TheDoorman) jerry  has  an  expression  of  pure  hatred  for  all  doormen  .
+(TheDoorman) jerry  snaps  back  to  the  here  and  now  .
+(TheDoorman) a  thought  occurs  to  george  .
+(TheDoorman) sid  farkus  sits  behind  his  desk  ,  in  front  of  which  sit  kramer  and  frank  .  kramer  is  holding  his  invention  as  they  pitch  it  to  farkus  .
+(TheDoorman) kramer  puts  the  bro  on  the  desk  .
+(TheDoorman) kramer  shakes  his  head  at  the  very  thought  of  banlon  .
+(TheDoorman) farkus  gives  a  questioning  look  to  kramer  .
+(TheDoorman) the  three  of  them  chuckle  at  the  thought  .
+(TheDoorman) they  share  a  manly  laugh  .
+(TheDoorman) the  laughter  continues  for  a  moment  .
+(TheDoorman) farkus  offers  his  hand  .  kramer  shakes  ,  and  then  takes  his  prototype  and  moves  toward  the  door  .  frank  then  shakes  farkus'  hand  .
+(TheDoorman) kramer  hovers  behind  frank  ,  waiting  to  leave  .
+(TheDoorman) kramer  tries  to  calm  frank  down  .
+(TheDoorman) frank  storms  out  in  a  rage  .  kramer  gives  farkus  an  'i'll  calm  him  down'  look  and  follows  frank  out  the  door  .
+(TheDoorman) frank  and  kramer  have  just  arrived  ,  to  find  george  packing  a  suitcase  .
+(TheDoorman) george  waves  at  kramer  to  shut  the  hell  up  .
+(TheDoorman) george  bites  his  lip  and  shakes  his  head  .
+(TheDoorman) george  flashes  kramer  an  aggrieved  look  .  there  is  a  knock  at  the  door  .
+(TheDoorman) george  races  over  and  opens  the  door  .
+(TheDoorman) as  estelle  speaks  ,  frank  goes  into  the  bedroom  and  brings  out  the  record  player  .
+(TheDoorman) george  is  helping  frank  on  with  his  coat  ,  a  happy  smile  beaming  from  his  face  .
+(TheDoorman) kramer  opens  the  door  .
+(TheDoorman) george  drapes  the  coat  across  frank's  shoulders  .
+(TheDoorman) george  has  picked  up  frank's  three  suitcases  ,  and  is  all  ready  to  help  carry  them  out  to  the  car  .
+(TheDoorman) frank  sits  down  in  a  chair  .  george's  face  drops  .
+(TheDoorman) george  drops  the  cases  in  disappointment  .
+(TheDoorman) the  german  sightseeing  bus  comes  to  a  halt  at  the  kerb  .  kramer  comes  around  the  corner  ,  carrying  the  record  player  in  his  arms  .  an  elderly  woman  ,  one  of  the  witnesses  to  the  'mugging'  of  george  ,  recognises  kramer  as  he  passes  .  she  climbs  out  of  the  bus  and  points  after  kramer  .
+(TheDoorman) kramer  looks  back  at  the  sound  and  sees  the  woman  coming  after  him  .  he  turns  back  and  continues  walking  .  the  other  german  tourists  get  off  the  bus  and  join  the  woman  as  she  follows  kramer  .
+(TheDoorman) kramer  looks  worried  and  continues  to  carry  his  record  player  ,  pushing  past  bystanders  as  the  tourists  close  on  him  .
+(TheDoorman) kramer  dives  into  a  doorway  ,  but  the  doors  are  locked  ,  so  he's  trapped  by  the  tourists  ,  who  block  his  escape  .
+(TheDoorman) horst  spots  the  straps  of  the  bro  hanging  from  kramer's  pocket  .
+(TheDoorman) kramer  puts  down  the  record  player  and  brings  out  the  bro  .  he  holds  it  up  against  his  body  ,  to  illustrate  his  words  .
+(TheDoorman) one  of  the  tourists  nudges  another  ,  portlier  ,  tourist  on  the  shoulder  at  kramer's  explanation  .
+(TheDoorman) the  portlier  german  reaches  for  kramer's  bro  .  the  tourists  are  all  looking  much  more  jovial  .
+(TheDoorman) the  tourists  laugh  uproariously  ,  with  kramer  joining  in  ,  and  the  portly  german  holding  the  bro  up  to  himself  .
+(TheDoorman) jerry  and  elaine  have  just  dropped  off  the  couch  into  the  lobby  .  mrs  .  payton  regards  it  critically  .  the  doorman  stands  in  the  background  as  the  delivery  men  leave  .
+(TheDoorman) elaine  and  mrs  .  payton  walk  away  together  .  an  elevator  arrives  ,  and  a  familiar  character  steps  out  and  is  noticed  by  jerry  .
+(TheDoorman) poppie  holds  his  hands  out  ,  indicating  someone  of  elaine's  height  .  jerry  nods  ,  remembering  and  in  sympathy  .
+(TheDoorman) elaine  comes  back  over  to  jerry  and  the  couch  .  poppie  spots  her  approach  ,  and  is  not  happy  .
+(TheDoorman) poppie  ,  aggravated  ,  moves  toward  the  couch  .
+(TheDoorman) poppie  sinks  onto  the  couch  ,  despite  the  pleas  ,  and  horrified  expressions  ,  of  jerry  and  elaine  .
+(TheExGirlfriend) car  door  opens  ,  it's  elaine
+(TheExGirlfriend) george  pulls  his  seat  forward  to  allow  elaine  into  the  back  seats
+(TheExGirlfriend) george  gets  out  ,  and  gestures  for  elaine  to  sit  in  the  seat
+(TheExGirlfriend) elaine  sits  in  the  middle
+(TheExGirlfriend) other  guy  hangs  up  on  jerry;  he  redials;  enter  kramer
+(TheExGirlfriend) the  buzzer  buzzes;  kramer  answers  it
+(TheExGirlfriend) kramer  holds  up  cantaloupe
+(TheExGirlfriend) enter  george;  he's  extremely  excited  -  he's  dancing  around  the  room  ,  singing  the  zorba  theme
+(TheExGirlfriend) kramer  stants  making  noises  while  eating
+(TheExGirlfriend) jerry  and  marlene  are  sitting  ,  a  pile  of  books  are  on  the  table  .
+(TheExGirlfriend) receptionist  enters
+(TheExGirlfriend) george  returns
+(TheExGirlfriend) leans  over  and  kisses  jerry
+(TheExGirlfriend) kramer  enters  with  a  golf  club
+(TheExGirlfriend) kramer  notices  jerry's  eating  cantaloupe  ,  his  eyes  light  up
+(TheExGirlfriend) phone  rings  ,  jerry  is  reluctant  to  answer  it
+(TheExGirlfriend) enter  elaine  ,  she's  holding  a  lamp
+(TheExGirlfriend) elaine  tastes  some  cantaloupe
+(TheJacket) jerry's  sitting  on  his  couch  wearing  his  pajamas  and  his  new  jacket  .  he  gets  up  to  look  at  his  jacket  in  the  mirror  .  kramer  enters
+(TheJacket) george  enters  singing  "  master  of  the  house  "  -  a  les  miserables  show  tune
+(TheJacket) enter  kramer
+(TheJacket) kramer  leaves
+(TheJacket) jerry  and  george  enter  .  george's  singing  "  master  of  the  house  "
+(TheJacket) alton  starts  hacking  ,  george  withdraws  his  hand
+(TheJacket) both  jerry  and  george  look  at  the  door  ,  anticipating  elaine's  arrival
+(TheJacket) jerry  and  george  turn  to  the  door  again
+(TheJacket) jerry  leaves  .  george  is  left  alone  with  alton
+(TheJacket) jerry  and  george  come  back  from  the  bathroom
+(TheJacket) manager  approaches
+(TheJacket) elaine  enters
+(TheJacket) they  all  head  for  the  door  .  jerry  and  george  trail  behind  a  little
+(TheJacket) alton  glares  ,  george  gets  embarrassed
+(TheJacket) jery  turns  his  jacket  inside  out  ,  showing  of  the  pink  striped  insides  .  alton  stops  him  before  jerry  can  leave  the  hotel
+(TheJacket) jerry  looks  at  george
+(TheJacket) jerry's  heading  out  ,  the  intercom  buzzes
+(TheJacket) enter  kramer
+(TheJacket) jerry  reaches  up  ,  and  pulls  out  some  mini  ritzes
+(TheJacket) kramer  returns  from  the  bathroom  wearing  the  ruined  suede  jacket
+(TheJacket) kramer  exits  ,  scene  ends
+(TheJacket) alton  is  driving  home  ,  then  all  the  sudden  ,  he  starts  to  sing
+(ThePonyRemark) jerry's  parents  are  in  town  .  his  father's  watching  t  .  v  .  ,  his  mother  is  ironing  his  father's  jackets
+(ThePonyRemark) phone  rings
+(ThePonyRemark) they  both  go  for  the  phone  ,  helen  gets  to  it  first
+(ThePonyRemark) she  hangs  up  .  jerry  enters  -  he's  wearing  baseball  clothes  and  carrying  a  bat  and  glove
+(ThePonyRemark) enter  kramer
+(ThePonyRemark) jerry  sits  between  uncle  leo  and  elaine  .  leo  grabs  his  choulder
+(ThePonyRemark) the  room  is  dead  quiet
+(ThePonyRemark) isaac  leaves  ,  everyone  looks  at  jerry
+(ThePonyRemark) morty  and  helen  are  leaving  ,  their  bags  are  packed
+(ThePonyRemark) jerry  opens  his  door  ,  kramer's  standing  in  the  hallway
+(ThePonyRemark) helen  picks  it  up
+(ThePonyRemark) the  eulogy  is  in  progress  .  jerry  attended  afterall
+(ThePonyRemark) jerry  shake  his  head  and  walks  away
+(ThePonyRemark) jerry  comes  back
+(ThePonyRemark) helen  approaches  jerry
+(TheStockTip) elaine  joins  them  ,  they  check  their  watches  .
+(TheStockTip) elaine  gets  the  paper  ,  he  starts  flipping  through  it  .
+(TheStockTip) waitress  arrives
+(TheStockTip) jerry  picks  up  a  paper
+(TheStockTip) phone  rings
+(TheStockTip) jerry  answers  phone
+(TheStockTip) kramer  has  a  pleased  reaction  on  his  face
+(TheStockTip) jerry  moves  up  in  line  ,  a  woman  takes  his  place  .  george  didn't  notice
+(TheStockTip) woman  gives  him  a  look
+(TheStockTip) elaine  sneezes
+(TheStockTip) intercom  buzzes
+(TheStockTip) elaine  goes  into  the  bathroom;  kramer  picks  up  some  binoculars  and  looks  ou  the  window
+(TheStockTip) enter  george;  he  flops  onto  the  couch
+(TheStockTip) elaine  exits  bathroom
+(TheStockTip) to  vanessa)  that's  a  nice  watch  .  do  you  wind  it
+(TheStockTip) elaine  sneezes
