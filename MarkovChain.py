@@ -93,7 +93,7 @@ class MarkovChain:
     def generate(self):
         print("Generating...")
         generatedText = ""
-        currentNodeKey = tuple(["DATASTART"])
+        currentNodeKey = tuple(self.getRandomStartingVal())
         length = 0
         while currentNodeKey[-1] != "DATAEND" and (length < 50):
             print("currentNodeKey: " + str(currentNodeKey) + ", data: " + str(self.nodes[currentNodeKey]))
@@ -105,7 +105,7 @@ class MarkovChain:
         return generatedText
 
 
-random.seed("Seinfeld Babey!")
+#random.seed("Seinfeld Babey!")
 
 demoChain = MarkovChain(2)
 demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
