@@ -20,7 +20,7 @@ class EpisodeBuilder:
             for c in castList:
                 if c not in self.suppCharacters and c not in self.mainCharacters:
                     self.suppCharacters.add(c)
-        directChain = MarkovChain(2)
+        directChain = MarkovChain(2) #Change direction order here
         stageDirections = getAllStageDirs(self.episodes)
         for direction in stageDirections:
             directChain.addData(direction.getChainableSource())
@@ -74,7 +74,3 @@ for fileName in os.listdir("Scripts/Normalized Scripts"):
 
 test = EpisodeBuilder(episodes)
 test.writeEpisode("TheCompSciFinal")
-
-
-
-
