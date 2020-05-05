@@ -179,7 +179,7 @@ JERRY: I don't know what to do.
 MORTY: ..You know what this funeral's gonna wind up costing me? Oh boy!
 (Scene ends)
 [Setting: Night club]
-JERRY: We don't understand death. And the proof of this is that we give dead people a pillow. And, uh, I mean, hey, you know. I think if you can't stretch out and get some solid rest at that point, I don't see how bedding accessories really make the difference. I mean, they got the guy in a suit with a pillow. No is he going to a meeting, or is he catching forty winks? I mean, let's make up our mind where we think they're going.
+JERRYM: We don't understand death. And the proof of this is that we give dead people a pillow. And, uh, I mean, hey, you know. I think if you can't stretch out and get some solid rest at that point, I don't see how bedding accessories really make the difference. I mean, they got the guy in a suit with a pillow. No is he going to a meeting, or is he catching forty winks? I mean, let's make up our mind where we think they're going.
 (Scene ends)
 [Setting: Coffee Shop]
 ELAINE: I actually like ponies. I was just trying to make conversation. What time's your game?
@@ -277,5 +277,5 @@ GEORGE: Not necessarily. (Elaine laughs)
 JERRY: Who figures an immigrant's gonna have a pony?
 (Scene ends)
 [Setting: Night Club]
-JERRY: What is the pony? What is the point of the pony? Why do we have these animals, these ponies? What do we do with them? Besides the pony ride. Why ponies? What are we doing with them? I mean, police don't use them for, you know, crowd control. "Hey, uh, you wanna get back behind the barricades. Hey! Hey, little boy. Yeah, I'm talking to you. Behind the barricades!" So somebody, I assume, genetically engineered these ponies. Do you think they could make them any size? I mean, could they make them like the size of a quarter, if they wanted? That would be fun for Monopoly, though, wouldn't it? Just have a little pony and you put him on the, "Baltic, that's two down, go ahead. Hold it. Right ther, Baltic. yeah, that's it. Fine. Right there, hold it right there."
+JERRYM: What is the pony? What is the point of the pony? Why do we have these animals, these ponies? What do we do with them? Besides the pony ride. Why ponies? What are we doing with them? I mean, police don't use them for, you know, crowd control. "Hey, uh, you wanna get back behind the barricades. Hey! Hey, little boy. Yeah, I'm talking to you. Behind the barricades!" So somebody, I assume, genetically engineered these ponies. Do you think they could make them any size? I mean, could they make them like the size of a quarter, if they wanted? That would be fun for Monopoly, though, wouldn't it? Just have a little pony and you put him on the, "Baltic, that's two down, go ahead. Hold it. Right ther, Baltic. yeah, that's it. Fine. Right there, hold it right there."
 [END OF SHOW.]

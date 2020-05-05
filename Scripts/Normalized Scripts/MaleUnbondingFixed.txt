@@ -51,7 +51,7 @@ JERRY: Just break up with him?
 GEORGE: Absolutely. You just tell him the truth.
 (scene ends)
 [Setting: Nightclub]
-JERRY: As a guy I don't know how I can break up with another guy. You know what I mean? I don't know how to say, "Bill, I feel I need to see other men." Do you know what I mean? There's nothing I can do. I have to wait for someone to die. I think that's the only way out of this relationship. It could be a long time. See, the great thing about guys is that we can become friends based on almost nothing. Just two guys will just become friends just because they're two guys. That's almost all we need to have in common. 'Cause sports - sports and women - is really all we talk about. If there was no sports and no women the only thing guys would ever say is "So, what's in the refrigerator?"
+JERRYM: As a guy I don't know how I can break up with another guy. You know what I mean? I don't know how to say, "Bill, I feel I need to see other men." Do you know what I mean? There's nothing I can do. I have to wait for someone to die. I think that's the only way out of this relationship. It could be a long time. See, the great thing about guys is that we can become friends based on almost nothing. Just two guys will just become friends just because they're two guys. That's almost all we need to have in common. 'Cause sports - sports and women - is really all we talk about. If there was no sports and no women the only thing guys would ever say is "So, what's in the refrigerator?"
 [Setting: Coffee Shop]
 (Jerry and Joel are sitting at a table)
 JOEL: ..so my shrink wants me to bring my mother in for a session. This guy is a brilliant man. Lenny Bruce used to go to him.. and I think, uh, Geraldo.
@@ -156,7 +156,7 @@ TELLER: Look, I can give you these and you can roll them yourself.
 GEORGE: You want me to roll six thousand of these?! What, should I quit my job?!
 (Scene ends.)
 [Setting: Nightclub]
-JERRY: I do not like the bank. I've heard the expression "Laughing all the way to the bank." I have never seen anyone actually doing it. And those bank lines. I hate it when there's nobody on the line at all, you know that part, you go to the bank, it's empty and you still have to go through the little maze. "Can you get a little piece of cheese for me? I'm almost at the front. I'd like a reward for this please."
+JERRYM: I do not like the bank. I've heard the expression "Laughing all the way to the bank." I have never seen anyone actually doing it. And those bank lines. I hate it when there's nobody on the line at all, you know that part, you go to the bank, it's empty and you still have to go through the little maze. "Can you get a little piece of cheese for me? I'm almost at the front. I'd like a reward for this please."
 [Setting: Jerry's apartment]
 (George is stuffing pennies into rolls.)
 GEORGE: ..Thirty-two, thirty-three-
@@ -263,5 +263,5 @@ JERRY: You really should.
 JOEL: Well, let's just take a look here. (looks at his schedule) Forty-one home games. Saturday night we've got the mavericks. If you don't like the Mavericks, next Tuesday - Lakers. I mean, you gotta like Magic, right? Let's see, on the road, on the road, on the road, on the road, back on the fourteenth. They play the Bulls. You can't miss Air Jordan..
 (Scene ends.)
 [Setting: Nightclub]
-JERRY: You know, I really.. I've come to the conclusion that there are certain friends in you life that they're just always your friends and you have to accept it. You see them, you don't really want to see them. You don't call them. They call you. You don't call back. They call again. The only way to get through talking with people that you don't really have anything in common with is to pretend you're hosting your own little talk show. This is what I do. You pretend there's a little desk around you. The only problem with this is there's no way you can say, "Hey, it's been great having you on the show. Were out of time."
+JERRYM: You know, I really.. I've come to the conclusion that there are certain friends in you life that they're just always your friends and you have to accept it. You see them, you don't really want to see them. You don't call them. They call you. You don't call back. They call again. The only way to get through talking with people that you don't really have anything in common with is to pretend you're hosting your own little talk show. This is what I do. You pretend there's a little desk around you. The only problem with this is there's no way you can say, "Hey, it's been great having you on the show. Were out of time."
 [END]

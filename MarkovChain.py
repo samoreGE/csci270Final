@@ -3,7 +3,7 @@ import random
 
 
 class MarkovChain:
-    def __init__(self, order=1):
+    def __init__(self, order):
         self.order = order
         self.nodes = dict()
 
@@ -97,12 +97,12 @@ class MarkovChain:
             print("ERROR, needs a StartingText!")
         return startText
 
-    def generate(self):
+    def generate(self, limit):
         print("Generating...")
         currentNodeKey = tuple(self.getRandomStartingVal())
         generatedText = self.makeStartingText(currentNodeKey)
         length = 0
-        while length < 50:
+        while length < limit:
             print("currentNodeKey: " + str(currentNodeKey) + ", data: " + str(self.nodes[currentNodeKey]))
             newWord = self.getRandomNodeVal(self.nodes[currentNodeKey])
             if newWord != "DATAEND":
@@ -115,11 +115,3 @@ class MarkovChain:
 
 
 # random.seed("Seinfeld Babey!")
-
-demoChain = MarkovChain(2)
-demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
-jerryLines = getAllCharLines(demoNames, "jerry")
-print("adding lines to chain!")
-for line in jerryLines:
-    demoChain.addData(line.getChainableSource())
-print(demoChain.generate())
