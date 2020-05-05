@@ -50,10 +50,10 @@ class EpisodeBuilder:
             sequence = sceneBuilder.sceneGenerate(cast)
             for l in sequence:
                 if l is "STAGEDIR":
-                    episode.append("( " + self.chains[l].generate(30) + ")")
+                    episode.append("(" + self.chains[l].generate(30)[:-1] + ")")
                 else:
                     newLine = self.chains[l].generate(50)
-                    newLine = newLine.replace("STAGEDIR", "( " + self.chains["STAGEDIR"].generate(10) + ")")
+                    newLine = newLine.replace("STAGEDIR", "(" + self.chains["STAGEDIR"].generate(10)[:-1] + ")")
                     episode.append(l.upper() + ": " + newLine)
             episode.append("[Scene end]")
         for line in episode:
@@ -64,11 +64,11 @@ class EpisodeBuilder:
         random.seed(title)
         f = open("Scripts/Bot Scripts/" + title + ".txt", "w+")
         for line in self.buildScript():
-            f.write(line + '\n')
+            f.write(line.replace(" .", ".").replace(" ?", "?").replace(" !", "!") + '\n')
 
 
 test = EpisodeBuilder(["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"])
-test.writeEpisode("TheGun")
+test.writeEpisode("TheCompSciFinal")
 
 
 
