@@ -63,8 +63,4 @@ def makeCharLine(charLineArray):
     return textOut
 
 
-<<<<<<< Updated upstream
-fixScriptText("Scripts/Raw Scripts/TheBusboyRaw.txt")
-=======
-fixScriptText("Scripts/Raw Scripts/TheBabyShowerRaw.txt")
->>>>>>> Stashed changes
+fixScriptText("Scripts/Raw Scripts/ThePickRaw.txt")
