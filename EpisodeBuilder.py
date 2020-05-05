@@ -36,8 +36,8 @@ class EpisodeBuilder:
             tempChain.addData(line.getChainableSource())
         self.chains[character] = tempChain
 
-    def episodeBuilder(self):
-        bob = SceneBuilder(self.episodes)
+    def buildScript(self):
+        sceneBuilder = SceneBuilder(self.episodes)
         episode = []
         sceneCount = 3 #Edit this value to reflect how many scenes long you want the episode
         episode.append("JERRY: " + self.chains["jerrym"].generate(100))
@@ -47,8 +47,7 @@ class EpisodeBuilder:
             suppCast = random.sample(self.suppCharacters, random.randint(0, 2))
             cast = mainCast + suppCast
             cast.append("STAGEDIR")
-            print("HELP ME! " + str(cast))
-            sequence = bob.sceneGenerate(cast)
+            sequence = sceneBuilder.sceneGenerate(cast)
             for l in sequence:
                 if l is "STAGEDIR":
                     episode.append("( " + self.chains[l].generate(30) + ")")
@@ -57,16 +56,19 @@ class EpisodeBuilder:
                     newLine = newLine.replace("STAGEDIR", "( " + self.chains["STAGEDIR"].generate(10) + ")")
                     episode.append(l.upper() + ": " + newLine)
             episode.append("[Scene end]")
-        for m in episode:
-            print(m)
+        for line in episode:
+            print(line)
+        return episode
 
-def makeEpisode(builder, title)
-    random.seed(title)
+    def writeEpisode(self, title):
+        random.seed(title)
+        f = open("Scripts/Bot Scripts/" + title + ".txt", "w+")
+        for line in self.buildScript():
+            f.write(line + '\n')
 
 
-random.seed("Jerry Has A Gun")
 test = EpisodeBuilder(["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"])
-test.episodeBuilder()
+test.writeEpisode("TheGun")
 
 
 
