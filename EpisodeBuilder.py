@@ -31,7 +31,7 @@ class EpisodeBuilder:
             self.characterChain(m)
 
     def characterChain(self, character):
-        tempChain = MarkovChain(3) #Change order here
+        tempChain = MarkovChain(2) #Change line order here
         characterLines = getAllCharLines(self.episodes, character)
         for line in characterLines:
             tempChain.addData(line.getChainableSource())
