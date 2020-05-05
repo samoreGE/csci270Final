@@ -67,9 +67,3 @@ def checkResults(lines, speaker):
     if allGood:
         print("All Good!")
     return allGood
-
-
-demoNames = ["MaleUnbonding", "TheDoorman", "TheExGirlfriend", "TheJacket", "ThePonyRemark", "TheStockTip"]
-stageDirs = getAllStageDirs(demoNames)
-for dir in stageDirs:
-    print(dir.getChainableSource())
